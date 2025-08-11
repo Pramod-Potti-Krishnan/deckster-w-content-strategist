@@ -1,0 +1,134 @@
+{
+  "slide_id": "test_diagram_focused_001",
+  "slide_type": "diagram_focused",
+  "structure_preference": "timeline",
+  "target_audience": "executives",
+  "title": {
+    "text": "Implementation Roadmap",
+    "word_count": 2,
+    "priority": "P1"
+  },
+  "main_points": [
+    {
+      "text": "Phase 1: Foundation",
+      "word_count": 3,
+      "priority": "P2"
+    },
+    {
+      "text": "Phase 2: Integration",
+      "word_count": 3,
+      "priority": "P2"
+    },
+    {
+      "text": "Phase 3: Optimization",
+      "word_count": 3,
+      "priority": "P2"
+    },
+    {
+      "text": "Phase 4: Innovation",
+      "word_count": 3,
+      "priority": "P2"
+    }
+  ],
+  "supporting_text": {
+    "text": "Our phased approach ensures a structured and progressive journey towards digital transformation, moving from foundational elements through integration, optimization, and finally to innovation.",
+    "word_count": 30,
+    "priority": "P3"
+  },
+  "primary_visual": {
+    "visual_type": "diagram",
+    "description": "A clean, modern flowchart depicting a four-phase implementation roadmap. The phases are arranged linearly from left to right, connected by solid arrows indicating a sequential flow and dependencies. Each phase is represented by a distinct node with a clear label. The overall color scheme is professional blue, with green used for the start and end phases.",
+    "chart_type": null,
+    "data_points": null,
+    "axes": null,
+    "data_insights": null,
+    "unit": null,
+    "image_prompt": null,
+    "image_style": null,
+    "style_keywords": null,
+    "composition": null,
+    "lighting": null,
+    "negative_prompt": null,
+    "diagram_type": "flowchart",
+    "nodes": [
+      {
+        "id": "node_0",
+        "label": "Phase 1: Foundation",
+        "type": "terminal",
+        "level": 0,
+        "shape": "rounded",
+        "color": "#27AE60",
+        "size": "medium"
+      },
+      {
+        "id": "node_1",
+        "label": "Phase 2: Integration",
+        "type": "process",
+        "level": 1,
+        "shape": "rectangle",
+        "color": "#3498DB",
+        "size": "medium"
+      },
+      {
+        "id": "node_2",
+        "label": "Phase 3: Optimization",
+        "type": "process",
+        "level": 2,
+        "shape": "rectangle",
+        "color": "#3498DB",
+        "size": "medium"
+      },
+      {
+        "id": "node_3",
+        "label": "Phase 4: Innovation",
+        "type": "terminal",
+        "level": 3,
+        "shape": "rounded",
+        "color": "#27AE60",
+        "size": "medium"
+      }
+    ],
+    "connections": [
+      {
+        "from_node": "node_0",
+        "to_node": "node_1",
+        "label": "",
+        "type": "arrow",
+        "line_style": "solid",
+        "arrow_type": "filled",
+        "width": 2
+      },
+      {
+        "from_node": "node_1",
+        "to_node": "node_2",
+        "label": "",
+        "type": "arrow",
+        "line_style": "solid",
+        "arrow_type": "filled",
+        "width": 2
+      },
+      {
+        "from_node": "node_2",
+        "to_node": "node_3",
+        "label": "",
+        "type": "arrow",
+        "line_style": "solid",
+        "arrow_type": "filled",
+        "width": 2
+      }
+    ],
+    "layout_direction": "left-right",
+    "space_requirement": "medium",
+    "layout_preference": "center",
+    "priority": "P2",
+    "handoff_ready": true
+  },
+  "supporting_visuals": [],
+  "total_word_count": 13,
+  "word_count_limit": 60,
+  "visual_count": 1,
+  "content_density": "medium",
+  "preferred_reading_flow": "linear",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

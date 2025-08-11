@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "chart_type": "pie",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\npie title Market Share Distribution 2024\n    \"Category A\" : 748.25\n    \"Category B\" : 362.97\n    \"Category C\" : 446.47\n    \"Category D\" : 525.26\n    \"Category E\" : 363.31\n    \"Category F\" : 204.76",
+  "data": [
+    {
+      "label": "Category A",
+      "value": 748.25
+    },
+    {
+      "label": "Category B",
+      "value": 362.97
+    },
+    {
+      "label": "Category C",
+      "value": 446.47
+    },
+    {
+      "label": "Category D",
+      "value": 525.26
+    },
+    {
+      "label": "Category E",
+      "value": 363.31
+    },
+    {
+      "label": "Category F",
+      "value": 204.76
+    }
+  ],
+  "description": "Synthetic data generated for Market Share Distribution 2024 showing stable patterns across 6 data points.",
+  "insights": [
+    "Downward trend detected: 29.8% decrease",
+    "Peak at Category A (748.25), lowest at Category F (204.76)"
+  ],
+  "metadata": {
+    "title": "Market Share Distribution 2024",
+    "num_data_points": 6,
+    "chart_syntax": "pie",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 6
+  }
+}

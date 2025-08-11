@@ -1,0 +1,110 @@
+{
+  "slide_id": "test_data_driven_001",
+  "slide_type": "data_driven",
+  "structure_preference": null,
+  "target_audience": "executives",
+  "title": {
+    "text": "Revenue Growth Analysis",
+    "word_count": 3,
+    "priority": "P1"
+  },
+  "main_points": [
+    {
+      "text": "Demonstrating our impressive revenue growth trajectory with 37% YoY growth, record Q4 performance, and expanding market share.",
+      "word_count": 21,
+      "priority": "P2"
+    }
+  ],
+  "supporting_text": {
+    "text": "Our financial performance highlights a robust expansion, driven by strategic initiatives and increasing market penetration. The consistent year-over-year growth underscores our strong market position and the effectiveness of our business strategy.",
+    "word_count": 43,
+    "priority": "P3"
+  },
+  "primary_visual": {
+    "visual_type": "chart",
+    "description": "A professional line chart displaying quarterly revenue growth over the past two years. The chart should have a clean design with a blue color scheme, highlighting the upward trend. Include markers on hover for specific data points.",
+    "chart_type": "line",
+    "data_points": [
+      {
+        "label": "Q1 2023",
+        "value": 100.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q2 2023",
+        "value": 110.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q3 2023",
+        "value": 125.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q4 2023",
+        "value": 150.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q1 2024",
+        "value": 140.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q2 2024",
+        "value": 160.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q3 2024",
+        "value": 175.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Q4 2024",
+        "value": 200.0,
+        "series_a": null,
+        "series_b": null
+      }
+    ],
+    "axes": {
+      "x_axis": "Quarter",
+      "y_axis": "Revenue Growth (%)"
+    },
+    "data_insights": "The data clearly shows a consistent upward trend in revenue, with a notable acceleration in Q4.",
+    "unit": null,
+    "image_prompt": null,
+    "image_style": null,
+    "style_keywords": [
+      "modern",
+      "professional",
+      "blue"
+    ],
+    "composition": null,
+    "lighting": null,
+    "negative_prompt": null,
+    "diagram_type": null,
+    "nodes": null,
+    "connections": null,
+    "layout_direction": null,
+    "space_requirement": "medium",
+    "layout_preference": "center-focused",
+    "priority": "P2",
+    "handoff_ready": true
+  },
+  "supporting_visuals": [],
+  "total_word_count": 44,
+  "word_count_limit": 18,
+  "visual_count": 1,
+  "content_density": "medium",
+  "preferred_reading_flow": "center-focused",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

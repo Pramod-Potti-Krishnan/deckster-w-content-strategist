@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "chart_type": "box_plot",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nfrom io import BytesIO\nimport base64\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\nsns.set_palette('husl')\n\ndata = [[50.0, 120.0, 70.0, 150.0, 45.0, 100.0]]\nbox = ax.boxplot(data, patch_artist=True)\nbox['boxes'][0].set_facecolor('lightblue')\nax.set_ylabel('Values')\nax.grid(True, alpha=0.3, axis='y')\n\nplt.title('Salary Distribution', fontsize=14, fontweight='bold')\nplt.tight_layout()\n\n# Save to base64\nbuffer = BytesIO()\nplt.savefig(buffer, format='png', dpi=100)\nbuffer.seek(0)\nimage_base64 = base64.b64encode(buffer.read()).decode()\nplt.close()\nprint(image_base64)",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 50.0
+    },
+    {
+      "label": "Point 2",
+      "value": 120.0
+    },
+    {
+      "label": "Point 4",
+      "value": 70.0
+    },
+    {
+      "label": "Point 5",
+      "value": 150.0
+    },
+    {
+      "label": "Point 7",
+      "value": 45.0
+    },
+    {
+      "label": "Point 8",
+      "value": 100.0
+    }
+  ],
+  "description": "Data extracted from user request for Salary Distribution showing an upward trend from 50.00 to 100.00",
+  "insights": [
+    "Upward trend detected: 22.9% increase",
+    "Peak at Point 5 (150.00), lowest at Point 7 (45.00)"
+  ],
+  "metadata": {
+    "title": "Salary Distribution",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "complex",
+    "strategy_confidence": 0.9,
+    "data_points_count": 6
+  }
+}

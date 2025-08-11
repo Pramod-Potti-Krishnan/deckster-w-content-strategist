@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mermaid Chart Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <h1>Testing Mermaid Charts</h1>
+    
+    <h2>Test 1: Basic xychart-beta</h2>
+    <div class="mermaid">
+%%{init: {'theme':'base'}}%%
+xychart-beta
+    title "Monthly Sales Trend"
+    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+    y-axis
+    line [45000, 52000, 48000, 61000, 58000, 72000]
+    </div>
+
+    <h2>Test 2: Without init block</h2>
+    <div class="mermaid">
+xychart-beta
+    title "Monthly Sales Trend"
+    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+    y-axis
+    line [45000, 52000, 48000, 61000, 58000, 72000]
+    </div>
+
+    <h2>Test 3: Bar Chart</h2>
+    <div class="mermaid">
+xychart-beta
+    title "Product Sales"
+    x-axis ["Product A", "Product B", "Product C"]
+    y-axis
+    bar [45, 38, 52]
+    </div>
+
+    <h2>Test 4: Pie Chart (for comparison)</h2>
+    <div class="mermaid">
+%%{init: {'theme':'base'}}%%
+pie title Market Share
+    "Company A" : 45
+    "Company B" : 30
+    "Company C" : 25
+    </div>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>

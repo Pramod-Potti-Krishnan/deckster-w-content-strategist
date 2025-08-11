@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "chart_type": "line",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Ice Cream Sales - Seasonal Pattern\"\n    x-axis [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"]\n    y-axis \"Value\"\n    line [366.19, 562.29, 451.88, 494.92, 508.86, 487.74, 465.47, 409.36, 560.83, 509.91, 593.95, 420.11]",
+  "data": [
+    {
+      "label": "Jan",
+      "value": 366.19
+    },
+    {
+      "label": "Feb",
+      "value": 562.29
+    },
+    {
+      "label": "Mar",
+      "value": 451.88
+    },
+    {
+      "label": "Apr",
+      "value": 494.92
+    },
+    {
+      "label": "May",
+      "value": 508.86
+    },
+    {
+      "label": "Jun",
+      "value": 487.74
+    },
+    {
+      "label": "Jul",
+      "value": 465.47
+    },
+    {
+      "label": "Aug",
+      "value": 409.36
+    },
+    {
+      "label": "Sep",
+      "value": 560.83
+    },
+    {
+      "label": "Oct",
+      "value": 509.91
+    },
+    {
+      "label": "Nov",
+      "value": 593.95
+    },
+    {
+      "label": "Dec",
+      "value": 420.11
+    }
+  ],
+  "description": "Synthetic data generated for Ice Cream Sales - Seasonal Pattern showing cyclical patterns with seasonal variations across 12 data points.",
+  "insights": [
+    "Peak at Nov (593.95), lowest at Jan (366.19)"
+  ],
+  "metadata": {
+    "title": "Ice Cream Sales - Seasonal Pattern",
+    "num_data_points": 12,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 12
+  }
+}

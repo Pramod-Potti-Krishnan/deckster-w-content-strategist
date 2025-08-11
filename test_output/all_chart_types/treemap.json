@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "chart_type": "treemap",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport squarify\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\n\nlabels = ['Salaries', 'Operations', 'Marketing', 'R&D', 'Admin', 'Other', 'Salaries', 'Operations', 'Marketing', 'R&D', 'Admin', 'Other']\nvalues = [45.0, 20.0, 15.0, 12.0, 5.0, 3.0, 45.0, 20.0, 15.0, 12.0, 5.0, 3.0]\n\n# Create treemap\ncolors = plt.cm.Spectral(np.linspace(0.3, 0.9, len(values)))\nsquarify.plot(sizes=values, label=labels, color=colors, alpha=0.8, ax=ax)\n\nax.axis('off')\nax.set_title('Budget Allocation', fontsize=14, fontweight='bold', pad=20)\n\nplt.tight_layout()",
+  "data": [
+    {
+      "label": "Salaries",
+      "value": 45.0
+    },
+    {
+      "label": "Operations",
+      "value": 20.0
+    },
+    {
+      "label": "Marketing",
+      "value": 15.0
+    },
+    {
+      "label": "R&D",
+      "value": 12.0
+    },
+    {
+      "label": "Admin",
+      "value": 5.0
+    },
+    {
+      "label": "Other",
+      "value": 3.0
+    },
+    {
+      "label": "Salaries",
+      "value": 45.0
+    },
+    {
+      "label": "Operations",
+      "value": 20.0
+    },
+    {
+      "label": "Marketing",
+      "value": 15.0
+    },
+    {
+      "label": "R&D",
+      "value": 12.0
+    },
+    {
+      "label": "Admin",
+      "value": 5.0
+    },
+    {
+      "label": "Other",
+      "value": 3.0
+    }
+  ],
+  "description": "Data extracted from user request for Budget Allocation showing a downward trend from 45.00 to 3.00",
+  "insights": [
+    "Salaries is an outlier with value 45.00",
+    "Salaries is an outlier with value 45.00",
+    "Peak at Salaries (45.00), lowest at Other (3.00)"
+  ],
+  "metadata": {
+    "title": "Budget Allocation",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "complex",
+    "strategy_confidence": 0.9,
+    "data_points_count": 12
+  }
+}

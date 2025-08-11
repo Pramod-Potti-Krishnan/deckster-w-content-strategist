@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mermaid Version Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <h1>Testing Different Mermaid Chart Syntaxes</h1>
+    
+    <h2>xychart-beta (might not be supported)</h2>
+    <div class="mermaid">
+xychart-beta
+    title "Sales"
+    x-axis [Jan, Feb, Mar]
+    y-axis "Revenue"
+    line [100, 200, 300]
+    </div>
+
+    <h2>Alternative: Using Graph for Bar-like visualization</h2>
+    <div class="mermaid">
+graph TD
+    subgraph "Monthly Sales"
+        Jan[Jan: $45K]
+        Feb[Feb: $52K]
+        Mar[Mar: $48K]
+        Apr[Apr: $61K]
+        May[May: $58K]
+        Jun[Jun: $72K]
+    end
+    </div>
+
+    <h2>Alternative: Using Gantt for Timeline</h2>
+    <div class="mermaid">
+gantt
+    title Monthly Sales Timeline
+    dateFormat YYYY-MM-DD
+    section Sales
+    Jan $45K :2024-01-01, 30d
+    Feb $52K :2024-02-01, 28d
+    Mar $48K :2024-03-01, 31d
+    </div>
+
+    <h2>Pie Chart (known to work)</h2>
+    <div class="mermaid">
+pie title Sales Distribution
+    "Jan" : 45
+    "Feb" : 52
+    "Mar" : 48
+    "Apr" : 61
+    "May" : 58
+    "Jun" : 72
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default'
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "chart_type": "pie",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\npie title Expense Distribution\n    \"Category A\" : 703.79\n    \"Category B\" : 848.92\n    \"Category C\" : 428.62\n    \"Category D\" : 508.21\n    \"Category E\" : 822.38\n    \"Category F\" : 662.70",
+  "data": [
+    {
+      "label": "Category A",
+      "value": 703.79
+    },
+    {
+      "label": "Category B",
+      "value": 848.92
+    },
+    {
+      "label": "Category C",
+      "value": 428.62
+    },
+    {
+      "label": "Category D",
+      "value": 508.21
+    },
+    {
+      "label": "Category E",
+      "value": 822.38
+    },
+    {
+      "label": "Category F",
+      "value": 662.7
+    }
+  ],
+  "description": "Synthetic data generated for Expense Distribution showing stable patterns across 6 data points.",
+  "insights": [
+    "Peak at Category B (848.92), lowest at Category C (428.62)"
+  ],
+  "metadata": {
+    "title": "Expense Distribution",
+    "num_data_points": 6,
+    "chart_syntax": "pie",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 6
+  }
+}

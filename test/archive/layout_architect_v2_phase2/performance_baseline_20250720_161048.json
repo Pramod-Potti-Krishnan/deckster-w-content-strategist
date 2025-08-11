@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-07-20T16:10:48.706742",
+  "performance_data": {
+    "test_structure_analysis_title_slide": {
+      "min": 0.012430191040039062,
+      "max": 0.012430191040039062,
+      "avg": 0.012430191040039062,
+      "count": 1,
+      "total": 0.012430191040039062
+    }
+  },
+  "raw_data": {
+    "test_structure_analysis_title_slide": [
+      0.012430191040039062
+    ]
+  }
+}

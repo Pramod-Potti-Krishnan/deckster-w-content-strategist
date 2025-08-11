@@ -1,0 +1,30 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  
+  <ns0:defs>
+    <ns0:linearGradient id="pyramid_gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#e0e7ff;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#c7d2fe;stop-opacity:1" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+  
+  <ns0:rect width="800" height="600" fill="#ffffff" />
+  
+  
+  
+  
+  <ns0:path id="level_3_fill" d="M 205 455 L 595 455 L 540.738 372.5 L 259.262 372.5 Z" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="2" />
+  <ns0:text id="level_3_text" x="400" y="420.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#ffffff"><ns0:tspan x="400" dy="0">Operational Excellence and Daily</ns0:tspan><ns0:tspan x="400" dy="1.2em">Execution</ns0:tspan></ns0:text>
+  
+  
+  <ns0:path id="level_2_fill" d="M 264.098 367.5 L 535.902 367.5 L 475.000 275 L 325.000 275 Z" fill="#ec4899" stroke="#ec4899" stroke-width="2" />
+  <ns0:text id="level_2_text" x="400" y="330.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#1e293b"><ns0:tspan x="400" dy="0">Tactical Planning and</ns0:tspan><ns0:tspan x="400" dy="1.2em">Resource Management</ns0:tspan></ns0:text>
+  
+  
+  <ns0:path id="level_1_fill" d="M 327.869 270 L 472.131 270 L 400 150 Z" fill="#06b6d4" stroke="#06b6d4" stroke-width="2" />
+  
+  <ns0:text id="level_1_text" x="400" y="235.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#1e293b"><ns0:tspan x="400" dy="0">Strategic</ns0:tspan><ns0:tspan x="400" dy="1.2em">Vision and...</ns0:tspan></ns0:text>
+  
+  
+  <ns0:text id="pyramid_title" x="400" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1e293b">Organizational Hierarchy</ns0:text>
+</ns0:svg>

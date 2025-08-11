@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "chart_type": "area",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nfrom io import BytesIO\nimport base64\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\nsns.set_palette('husl')\n\nx = np.arange(len(['Point 1', 'Point 2', 'Point 4', 'Point 5', 'Point 7', 'Point 8', 'Point 10', 'Point 11']))\ny = [1.0, 1.0, 2.0, 2.5, 3.0, 4.0, 4.0, 6.0]\nax.fill_between(x, y, alpha=0.3)\nax.plot(x, y, linewidth=2)\nax.set_xticks(x)\nax.set_xticklabels(['Point 1', 'Point 2', 'Point 4', 'Point 5', 'Point 7', 'Point 8', 'Point 10', 'Point 11'], rotation=45, ha='right')\nax.set_xlabel('Categories')\nax.set_ylabel('Values')\nax.grid(True, alpha=0.3)\n\nplt.title('Cumulative Revenue', fontsize=14, fontweight='bold')\nplt.tight_layout()\n\n# Save to base64\nbuffer = BytesIO()\nplt.savefig(buffer, format='png', dpi=100)\nbuffer.seek(0)\nimage_base64 = base64.b64encode(buffer.read()).decode()\nplt.close()\nprint(image_base64)",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 1.0
+    },
+    {
+      "label": "Point 2",
+      "value": 1.0
+    },
+    {
+      "label": "Point 4",
+      "value": 2.0
+    },
+    {
+      "label": "Point 5",
+      "value": 2.5
+    },
+    {
+      "label": "Point 7",
+      "value": 3.0
+    },
+    {
+      "label": "Point 8",
+      "value": 4.0
+    },
+    {
+      "label": "Point 10",
+      "value": 4.0
+    },
+    {
+      "label": "Point 11",
+      "value": 6.0
+    }
+  ],
+  "description": "Data extracted from user request for Cumulative Revenue showing an upward trend from 1.00 to 6.00",
+  "insights": [
+    "Upward trend detected: 161.5% increase",
+    "Peak at Point 11 (6.00), lowest at Point 1 (1.00)"
+  ],
+  "metadata": {
+    "title": "Cumulative Revenue",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "moderate",
+    "strategy_confidence": 0.9,
+    "data_points_count": 8
+  }
+}

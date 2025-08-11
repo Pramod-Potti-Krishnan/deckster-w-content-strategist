@@ -1,0 +1,188 @@
+{
+  "type": "PresentationStrawman",
+  "main_title": "Digital Transformation in Healthcare",
+  "overall_theme": "Innovative and data-driven exploration of healthcare's digital future",
+  "design_suggestions": "Modern professional with blue and white tones, medical imagery, clean data visualizations",
+  "target_audience": "Healthcare executives and technology decision makers",
+  "presentation_duration": 20,
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_id": "slide_001",
+      "title": "Digital Transformation in Healthcare",
+      "slide_type": "title_slide",
+      "narrative": "Introduce the revolutionary impact of digital technology on healthcare delivery and patient outcomes",
+      "key_points": [
+        "The Future of Healthcare is Digital",
+        "Transforming Patient Care Through Innovation",
+        "Data-Driven Decision Making"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Modern healthcare facility with digital overlays, possibly showing connected devices and data streams",
+      "diagrams_needed": null,
+      "structure_preference": "centered-title",
+      "speaker_notes": "Welcome the audience and establish credibility. Mention recent healthcare digital transformation statistics."
+    },
+    {
+      "slide_number": 2,
+      "slide_id": "slide_002",
+      "title": "Current Challenges in Healthcare",
+      "slide_type": "section_divider",
+      "narrative": "Transition to discussing the problems that digital transformation aims to solve",
+      "key_points": [
+        "Understanding the Status Quo",
+        "Why Change is Necessary"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Abstract medical imagery with challenging elements - perhaps fragmented or disconnected systems",
+      "diagrams_needed": null,
+      "structure_preference": "section-break",
+      "speaker_notes": "Pause for emphasis. This section will resonate with the audience's pain points."
+    },
+    {
+      "slide_number": 3,
+      "slide_id": "slide_003",
+      "title": "The Healthcare Crisis: By the Numbers",
+      "slide_type": "content_heavy",
+      "narrative": "Deep dive into the current healthcare challenges with supporting data and explanations",
+      "key_points": [
+        "Rising healthcare costs outpacing inflation by 200%",
+        "Medical errors are the third leading cause of death",
+        "30% of healthcare spending is waste",
+        "Physician burnout affects 44% of practitioners",
+        "Patient wait times increased 24% in last 5 years"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Icons representing each challenge point",
+      "tables_needed": "Comparison table with columns: Healthcare Challenge | Current State | Impact on System | 5-Year Trend. Include rows for each of the 5 key challenges with specific metrics and trend indicators",
+      "diagrams_needed": null,
+      "structure_preference": "two-column",
+      "speaker_notes": "Each point has significant research backing. Be prepared to elaborate on any statistic if questioned."
+    },
+    {
+      "slide_number": 4,
+      "slide_id": "slide_004",
+      "title": "Impact of Digital Solutions: Evidence-Based Results",
+      "slide_type": "data_driven",
+      "narrative": "Show concrete data on how digital transformation improves healthcare outcomes",
+      "key_points": [
+        "40% reduction in medical errors with EHR systems",
+        "Telemedicine adoption increased 3800% during 2020-2022",
+        "AI diagnostics showing 94% accuracy vs 88% human average",
+        "Digital health apps improve medication adherence by 60%"
+      ],
+      "analytics_needed": "Combination chart showing before/after metrics for key performance indicators. Include bar charts for error reduction, line graph for telemedicine growth, and comparison visualization for AI vs human diagnostic accuracy",
+      "visuals_needed": "Clean, modern chart visualizations with healthcare color scheme",
+      "diagrams_needed": null,
+      "structure_preference": "data-centered",
+      "speaker_notes": "These numbers come from peer-reviewed studies. Have citations ready."
+    },
+    {
+      "slide_number": 5,
+      "slide_id": "slide_005",
+      "title": "Digital Solutions Overview",
+      "slide_type": "section_divider",
+      "narrative": "Transition to exploring specific digital solutions available today",
+      "key_points": [
+        "From Problems to Solutions",
+        "The Digital Health Toolkit"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Futuristic medical technology imagery, perhaps holographic displays or connected devices",
+      "diagrams_needed": null,
+      "structure_preference": "section-break",
+      "speaker_notes": "Build excitement about the possibilities ahead."
+    },
+    {
+      "slide_number": 6,
+      "slide_id": "slide_006",
+      "title": "The Digital Health Ecosystem",
+      "slide_type": "diagram_focused",
+      "narrative": "Illustrate how different digital health components work together in an integrated system",
+      "key_points": [
+        "Electronic Health Records (EHR) at the center",
+        "Telemedicine platforms for remote care",
+        "Wearable devices for continuous monitoring",
+        "AI/ML for predictive analytics",
+        "Mobile health apps for patient engagement"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Icons for each component of the ecosystem",
+      "diagrams_needed": "Circular ecosystem diagram showing EHR at center with bidirectional connections to: Telemedicine (top), Wearables (right), AI/ML (bottom), Mobile Apps (left). Show data flow arrows between all components",
+      "structure_preference": "diagram-centered",
+      "speaker_notes": "Emphasize the interconnected nature - the whole is greater than the sum of parts."
+    },
+    {
+      "slide_number": 7,
+      "slide_id": "slide_007",
+      "title": "Revolutionizing Patient Experience",
+      "slide_type": "visual_heavy",
+      "narrative": "Show the transformed patient journey through powerful visuals",
+      "key_points": [
+        "24/7 access to health records",
+        "Virtual consultations from home",
+        "Personalized treatment plans",
+        "Real-time health monitoring"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Split-screen showing traditional vs digital patient experience. Left side: long waiting rooms, paper forms, disconnected care. Right side: smartphone health apps, video consultations, wearable devices, integrated care dashboard",
+      "diagrams_needed": null,
+      "structure_preference": "visual-split",
+      "speaker_notes": "Use storytelling - describe a day in the life of a patient before and after digital transformation."
+    },
+    {
+      "slide_number": 8,
+      "slide_id": "slide_008",
+      "title": "AI in Medical Diagnostics: A Game Changer",
+      "slide_type": "mixed_content",
+      "narrative": "Demonstrate how AI is revolutionizing diagnostic accuracy and speed",
+      "key_points": [
+        "AI analyzes medical images 150x faster than humans",
+        "Early cancer detection rates improved by 35%",
+        "Reduces diagnostic costs by 50%",
+        "Assists in rare disease identification"
+      ],
+      "analytics_needed": "Comparison metrics showing AI vs traditional diagnostic performance across different conditions",
+      "visuals_needed": "Medical imaging examples with AI overlay highlighting detected anomalies",
+      "diagrams_needed": "Simple flowchart showing AI diagnostic process: Image Input → AI Analysis → Pattern Recognition → Risk Assessment → Doctor Review → Diagnosis",
+      "structure_preference": "balanced-mixed",
+      "speaker_notes": "Emphasize AI assists doctors, doesn't replace them. Address common concerns about AI in healthcare."
+    },
+    {
+      "slide_number": 9,
+      "slide_id": "slide_009",
+      "title": "Return on Investment: The Business Case",
+      "slide_type": "data_driven",
+      "narrative": "Present compelling financial data showing ROI of digital health investments",
+      "key_points": [
+        "Average ROI of 312% within 3 years",
+        "Operational costs reduced by 25%",
+        "Patient acquisition costs down 40%",
+        "Revenue per patient increased 18%"
+      ],
+      "analytics_needed": "Waterfall chart showing cost savings breakdown: Initial Investment (-$2M) → Operational Savings (+$1.5M) → Reduced Errors (+$800K) → Increased Efficiency (+$1.2M) → New Revenue Streams (+$2M) → Net Gain (+$3.5M)",
+      "visuals_needed": "Professional financial charts with clear value indicators",
+      "diagrams_needed": null,
+      "structure_preference": "data-centered",
+      "speaker_notes": "CFOs care about these numbers. Have detailed breakdowns ready for each metric."
+    },
+    {
+      "slide_number": 10,
+      "slide_id": "slide_010",
+      "title": "Your Digital Transformation Journey Starts Now",
+      "slide_type": "conclusion_slide",
+      "narrative": "Inspire action with a clear path forward and compelling call to action",
+      "key_points": [
+        "Digital transformation is not optional—it's essential",
+        "Start with pilot programs to prove value",
+        "Partner with experienced digital health providers",
+        "The time to act is now"
+      ],
+      "analytics_needed": null,
+      "visuals_needed": "Inspiring image of healthcare professionals using digital tools with patients, conveying partnership and progress",
+      "diagrams_needed": null,
+      "structure_preference": "call-to-action",
+      "speaker_notes": "End with energy and urgency. Offer specific next steps and follow-up opportunities."
+    }
+  ]
+}

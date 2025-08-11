@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "chart_type": "waterfall",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\n\nlabels = ['Point 1', 'Point 3', 'Point 5', 'Point 7', 'Point 9', 'Point 11']\nvalues = [100.0, 50.0, 20.0, 10.0, 5.0, 115.0]\n\n# Calculate cumulative values\ncumulative = np.cumsum(values)\nstarts = np.concatenate([[0], cumulative[:-1]])\n\n# Create waterfall\nfor i, (label, value, start) in enumerate(zip(labels, values, starts)):\n    color = 'green' if value >= 0 else 'red'\n    ax.bar(i, value, bottom=start, color=color, edgecolor='black')\n\nax.set_xticks(range(len(labels)))\nax.set_xticklabels(labels, rotation=45, ha='right')\nax.set_ylabel('Cumulative Value')\nax.set_title('Profit Breakdown')\nax.grid(True, alpha=0.3, axis='y')\nax.axhline(y=0, color='black', linestyle='-', linewidth=0.8)\n\nplt.tight_layout()",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 100.0
+    },
+    {
+      "label": "Point 3",
+      "value": 50.0
+    },
+    {
+      "label": "Point 5",
+      "value": 20.0
+    },
+    {
+      "label": "Point 7",
+      "value": 10.0
+    },
+    {
+      "label": "Point 9",
+      "value": 5.0
+    },
+    {
+      "label": "Point 11",
+      "value": 115.0
+    }
+  ],
+  "description": "Data extracted from user request for Profit Breakdown showing an upward trend from 100.00 to 115.00",
+  "insights": [
+    "Downward trend detected: 23.5% decrease",
+    "Peak at Point 11 (115.00), lowest at Point 9 (5.00)"
+  ],
+  "metadata": {
+    "title": "Profit Breakdown",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "complex",
+    "strategy_confidence": 0.9,
+    "data_points_count": 6
+  }
+}

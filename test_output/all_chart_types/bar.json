@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "chart_type": "bar",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Product Sales Comparison\"\n    x-axis [\"Point 1\", \"Point 3\", \"Point 5\", \"Point 7\", \"Point 9\"]\n    y-axis \"Value\"\n    bar [2.50, 1.80, 1.20, 900, 600]",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 2.5
+    },
+    {
+      "label": "Point 3",
+      "value": 1.8
+    },
+    {
+      "label": "Point 5",
+      "value": 1.2
+    },
+    {
+      "label": "Point 7",
+      "value": 900.0
+    },
+    {
+      "label": "Point 9",
+      "value": 600.0
+    }
+  ],
+  "description": "Data extracted from user request for Product Sales Comparison showing an upward trend from 2.50 to 600.00",
+  "insights": [
+    "Upward trend detected: 23174.4% increase",
+    "Peak at Point 7 (900.00), lowest at Point 5 (1.20)"
+  ],
+  "metadata": {
+    "title": "Product Sales Comparison",
+    "num_data_points": 5,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 5
+  }
+}

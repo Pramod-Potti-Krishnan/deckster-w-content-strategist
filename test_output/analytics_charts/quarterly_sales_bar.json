@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "chart_type": "bar",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"2024 Quarterly Sales Performance\"\n    x-axis [\"Q1 2024\", \"Q2 2024\", \"Q3 2024\", \"Q4 2024\"]\n    y-axis \"Value\"\n    bar [805.44, 529.06, 542.96, 387.95]",
+  "data": [
+    {
+      "label": "Q1 2024",
+      "value": 805.44
+    },
+    {
+      "label": "Q2 2024",
+      "value": 529.06
+    },
+    {
+      "label": "Q3 2024",
+      "value": 542.96
+    },
+    {
+      "label": "Q4 2024",
+      "value": 387.95
+    }
+  ],
+  "description": "Synthetic data generated for 2024 Quarterly Sales Performance showing stable patterns across 4 data points.",
+  "insights": [
+    "Downward trend detected: 30.2% decrease",
+    "Peak at Q1 2024 (805.44), lowest at Q4 2024 (387.95)"
+  ],
+  "metadata": {
+    "title": "2024 Quarterly Sales Performance",
+    "num_data_points": 4,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 4
+  }
+}

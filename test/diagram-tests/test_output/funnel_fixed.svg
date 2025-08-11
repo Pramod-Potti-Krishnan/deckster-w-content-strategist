@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 800 600" width="800" height="600">
+  
+  <defs>
+    <linearGradient id="funnel_gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bfdbfe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  
+  
+  <rect width="800" height="600" fill="#ffffff" />
+  
+  
+  <path id="stage_1_fill" d="M 150 150 L 650 150 L 600 220 L 200 220 Z" fill="#3b82f6" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)" />
+  <text id="stage_1_text" x="400" y="185" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#ffffff">Stage 1</text>
+  
+  
+  <path id="stage_2_fill" d="M 200 220 L 600 220 L 550 290 L 250 290 Z" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="2" filter="url(#shadow)" />
+  <text id="stage_2_text" x="400" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#ffffff">Stage 2</text>
+  
+  
+  <path id="stage_3_fill" d="M 250 290 L 550 290 L 500 360 L 300 360 Z" fill="#10b981" stroke="#10b981" stroke-width="2" filter="url(#shadow)" />
+  <text id="stage_3_text" x="400" y="325" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#1e293b">Stage 3</text>
+  
+  
+  <path id="stage_4_fill" d="M 300 360 L 500 360 L 450 430 L 350 430 Z" fill="#06b6d4" stroke="#06b6d4" stroke-width="2" filter="url(#shadow)" />
+  <text id="stage_4_text" x="400" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#1e293b">Stage 4</text>
+  
+  
+  <path id="stage_5_fill" d="M 350 430 L 450 430 L 425 500 L 375 500 Z" fill="#f59e0b" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)" />
+  <text id="stage_5_text" x="400" y="465" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#1e293b">Stage 5</text>
+  
+  
+  <text id="funnel_title" x="400" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1e293b">Test Funnel</text>
+</svg>

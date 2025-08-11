@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "chart_type": "line",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Monthly Revenue Trend\"\n    x-axis [\"Point 1\", \"Point 3\", \"Point 5\", \"Point 7\", \"Point 9\", \"Point 11\"]\n    y-axis \"Value\"\n    line [100, 120, 150, 180, 200, 220]",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 100.0
+    },
+    {
+      "label": "Point 3",
+      "value": 120.0
+    },
+    {
+      "label": "Point 5",
+      "value": 150.0
+    },
+    {
+      "label": "Point 7",
+      "value": 180.0
+    },
+    {
+      "label": "Point 9",
+      "value": 200.0
+    },
+    {
+      "label": "Point 11",
+      "value": 220.0
+    }
+  ],
+  "description": "Data extracted from user request for Monthly Revenue Trend showing an upward trend from 100.00 to 220.00",
+  "insights": [
+    "Upward trend detected: 62.2% increase",
+    "Peak at Point 11 (220.00), lowest at Point 1 (100.00)"
+  ],
+  "metadata": {
+    "title": "Monthly Revenue Trend",
+    "num_data_points": 6,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 6
+  }
+}

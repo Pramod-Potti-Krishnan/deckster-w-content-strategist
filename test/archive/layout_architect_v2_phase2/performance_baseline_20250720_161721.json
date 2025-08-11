@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-07-20T16:17:21.611936",
+  "performance_data": {
+    "test_font_pairing_tool": {
+      "min": 0.01332855224609375,
+      "max": 0.01332855224609375,
+      "avg": 0.01332855224609375,
+      "count": 1,
+      "total": 0.01332855224609375
+    },
+    "test_color_palette_generation": {
+      "min": 0.012688159942626953,
+      "max": 0.012688159942626953,
+      "avg": 0.012688159942626953,
+      "count": 1,
+      "total": 0.012688159942626953
+    },
+    "test_structure_analysis_title_slide": {
+      "min": 0.011243343353271484,
+      "max": 0.011243343353271484,
+      "avg": 0.011243343353271484,
+      "count": 1,
+      "total": 0.011243343353271484
+    },
+    "test_structure_analysis_content_heavy": {
+      "min": 5.6042561531066895,
+      "max": 5.6042561531066895,
+      "avg": 5.6042561531066895,
+      "count": 1,
+      "total": 5.6042561531066895
+    },
+    "test_structure_analysis_visual_heavy": {
+      "min": 0.020420312881469727,
+      "max": 0.020420312881469727,
+      "avg": 0.020420312881469727,
+      "count": 1,
+      "total": 0.020420312881469727
+    },
+    "test_structure_analysis_data_driven": {
+      "min": 1.89479660987854,
+      "max": 1.89479660987854,
+      "avg": 1.89479660987854,
+      "count": 1,
+      "total": 1.89479660987854
+    },
+    "test_content_parsing_tool": {
+      "min": 0.010184288024902344,
+      "max": 0.010184288024902344,
+      "avg": 0.010184288024902344,
+      "count": 1,
+      "total": 0.010184288024902344
+    },
+    "test_relationship_detection": {
+      "min": 0.006329774856567383,
+      "max": 0.006329774856567383,
+      "avg": 0.006329774856567383,
+      "count": 1,
+      "total": 0.006329774856567383
+    },
+    "test_layout_patterns": {
+      "min": 0.013403654098510742,
+      "max": 0.013403654098510742,
+      "avg": 0.013403654098510742,
+      "count": 1,
+      "total": 0.013403654098510742
+    },
+    "test_visual_balance_scoring": {
+      "min": 0.011855840682983398,
+      "max": 0.011855840682983398,
+      "avg": 0.011855840682983398,
+      "count": 1,
+      "total": 0.011855840682983398
+    },
+    "test_layout_validation": {
+      "min": 0.013983964920043945,
+      "max": 0.013983964920043945,
+      "avg": 0.013983964920043945,
+      "count": 1,
+      "total": 0.013983964920043945
+    }
+  },
+  "raw_data": {
+    "test_font_pairing_tool": [
+      0.01332855224609375
+    ],
+    "test_color_palette_generation": [
+      0.012688159942626953
+    ],
+    "test_structure_analysis_title_slide": [
+      0.011243343353271484
+    ],
+    "test_structure_analysis_content_heavy": [
+      5.6042561531066895
+    ],
+    "test_structure_analysis_visual_heavy": [
+      0.020420312881469727
+    ],
+    "test_structure_analysis_data_driven": [
+      1.89479660987854
+    ],
+    "test_content_parsing_tool": [
+      0.010184288024902344
+    ],
+    "test_relationship_detection": [
+      0.006329774856567383
+    ],
+    "test_layout_patterns": [
+      0.013403654098510742
+    ],
+    "test_visual_balance_scoring": [
+      0.011855840682983398
+    ],
+    "test_layout_validation": [
+      0.013983964920043945
+    ]
+  }
+}

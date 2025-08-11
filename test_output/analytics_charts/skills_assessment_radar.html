@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Assessment Radar</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .chart-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #666;
+            margin-right: 10px;
+        }
+        .info-value {
+            color: #333;
+        }
+        .mermaid {
+            background: white;
+            padding: 30px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            min-height: 400px;
+        }
+        .description {
+            margin: 20px 0;
+            padding: 20px;
+            background: #e8f4fd;
+            border-left: 4px solid #4a90e2;
+            border-radius: 5px;
+        }
+        .insights {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f0f8e8;
+            border-left: 4px solid #52c41a;
+            border-radius: 5px;
+        }
+        .insights h3 {
+            margin-top: 0;
+            color: #52c41a;
+        }
+        .insights ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .insights li {
+            margin: 5px 0;
+        }
+        .data-section {
+            margin-top: 30px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #e0e0e0;
+            padding: 12px;
+            text-align: left;
+        }
+        .data-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .data-table tr:hover {
+            background: #e8f4fd;
+        }
+        .code-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #2d2d2d;
+            border-radius: 8px;
+            color: #f8f8f2;
+        }
+        .code-section h3 {
+            color: #f8f8f2;
+            margin-top: 0;
+        }
+        pre {
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .badge-success {
+            background: #52c41a;
+            color: white;
+        }
+        .badge-info {
+            background: #1890ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Skills Assessment Radar <span class="badge badge-success">radar</span></h1>
+        
+        <div class="chart-info">
+            <div class="info-item">
+                <span class="info-label">Chart Type:</span>
+                <span class="info-value">radar</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Format:</span>
+                <span class="info-value">mermaid</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Data Points:</span>
+                <span class="info-value">10</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Generated:</span>
+                <span class="info-value">2025-08-10 11:49:47</span>
+            </div>
+        </div>
+        
+        
+        <div class="description">
+            <strong>Description:</strong> Synthetic data generated for Team Skills Assessment showing stable patterns across 12 data points.
+        </div>
+        
+        
+        <div class="mermaid">
+%%{init: {'theme':'base'}}%%
+xychart-beta
+    title "Team Skills Assessment (Radar View)"
+    x-axis ["Sales", "Marketing", "Engineering", "Support", "HR", "Finance", "Operations", "R&D", "Legal", "IT"]
+    y-axis "Value"
+    bar [919.33, 222.94, 50.05, 889.95, 878.97, 937.72, 195.79, 936.79, 933.36, 55.72]
+        </div>
+        
+        
+        <div class="insights">
+            <h3>📊 Key Insights</h3>
+            <ul>
+                <li>Peak at Finance (937.72), lowest at Engineering (50.05)</li>
+            </ul>
+        </div>
+        
+        
+        <div class="data-section">
+            <h3>📈 Generated Data</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Sales</td><td>919.33</td></tr>
+<tr><td>Marketing</td><td>222.94</td></tr>
+<tr><td>Engineering</td><td>50.05</td></tr>
+<tr><td>Support</td><td>889.95</td></tr>
+<tr><td>HR</td><td>878.97</td></tr>
+<tr><td>Finance</td><td>937.72</td></tr>
+<tr><td>Operations</td><td>195.79</td></tr>
+<tr><td>R&D</td><td>936.79</td></tr>
+<tr><td>Legal</td><td>933.36</td></tr>
+<tr><td>IT</td><td>55.72</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

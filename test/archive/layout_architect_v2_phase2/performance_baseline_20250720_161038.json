@@ -1,0 +1,677 @@
+{
+  "timestamp": "2025-07-20T16:10:38.511600",
+  "performance_data": {
+    "test_font_pairing_tool": {
+      "min": 0.0679922103881836,
+      "max": 0.0679922103881836,
+      "avg": 0.0679922103881836,
+      "count": 1,
+      "total": 0.0679922103881836
+    },
+    "test_color_palette_generation": {
+      "min": 0.009990453720092773,
+      "max": 0.009990453720092773,
+      "avg": 0.009990453720092773,
+      "count": 1,
+      "total": 0.009990453720092773
+    },
+    "test_structure_analysis_title_slide": {
+      "min": 1.3104050159454346,
+      "max": 1.3104050159454346,
+      "avg": 1.3104050159454346,
+      "count": 1,
+      "total": 1.3104050159454346
+    },
+    "test_structure_analysis_content_heavy": {
+      "min": 0.00841069221496582,
+      "max": 0.00841069221496582,
+      "avg": 0.00841069221496582,
+      "count": 1,
+      "total": 0.00841069221496582
+    },
+    "test_structure_analysis_visual_heavy": {
+      "min": 1.5519793033599854,
+      "max": 1.5519793033599854,
+      "avg": 1.5519793033599854,
+      "count": 1,
+      "total": 1.5519793033599854
+    },
+    "test_structure_analysis_data_driven": {
+      "min": 0.009906768798828125,
+      "max": 0.009906768798828125,
+      "avg": 0.009906768798828125,
+      "count": 1,
+      "total": 0.009906768798828125
+    },
+    "test_content_parsing_tool": {
+      "min": 0.005529880523681641,
+      "max": 0.005529880523681641,
+      "avg": 0.005529880523681641,
+      "count": 1,
+      "total": 0.005529880523681641
+    },
+    "test_relationship_detection": {
+      "min": 0.005334377288818359,
+      "max": 0.005334377288818359,
+      "avg": 0.005334377288818359,
+      "count": 1,
+      "total": 0.005334377288818359
+    },
+    "test_layout_patterns": {
+      "min": 0.009827375411987305,
+      "max": 0.009827375411987305,
+      "avg": 0.009827375411987305,
+      "count": 1,
+      "total": 0.009827375411987305
+    },
+    "test_visual_balance_scoring": {
+      "min": 0.00908660888671875,
+      "max": 0.00908660888671875,
+      "avg": 0.00908660888671875,
+      "count": 1,
+      "total": 0.00908660888671875
+    },
+    "test_layout_validation": {
+      "min": 0.010148048400878906,
+      "max": 0.010148048400878906,
+      "avg": 0.010148048400878906,
+      "count": 1,
+      "total": 0.010148048400878906
+    },
+    "test_single_slide_generation": {
+      "min": 0.02352452278137207,
+      "max": 0.02352452278137207,
+      "avg": 0.02352452278137207,
+      "count": 1,
+      "total": 0.02352452278137207
+    },
+    "test_batch_generation": {
+      "min": 0.022629261016845703,
+      "max": 0.022629261016845703,
+      "avg": 0.022629261016845703,
+      "count": 1,
+      "total": 0.022629261016845703
+    },
+    "test_industry_specific_generation[healthcare]": {
+      "min": 0.026464223861694336,
+      "max": 0.026464223861694336,
+      "avg": 0.026464223861694336,
+      "count": 1,
+      "total": 0.026464223861694336
+    },
+    "test_industry_specific_generation[finance]": {
+      "min": 0.029564857482910156,
+      "max": 0.029564857482910156,
+      "avg": 0.029564857482910156,
+      "count": 1,
+      "total": 0.029564857482910156
+    },
+    "test_industry_specific_generation[education]": {
+      "min": 0.027402400970458984,
+      "max": 0.027402400970458984,
+      "avg": 0.027402400970458984,
+      "count": 1,
+      "total": 0.027402400970458984
+    },
+    "test_industry_specific_generation[technology]": {
+      "min": 0.11876630783081055,
+      "max": 0.11876630783081055,
+      "avg": 0.11876630783081055,
+      "count": 1,
+      "total": 0.11876630783081055
+    },
+    "test_progressive_refinement": {
+      "min": 0.02978682518005371,
+      "max": 0.02978682518005371,
+      "avg": 0.02978682518005371,
+      "count": 1,
+      "total": 0.02978682518005371
+    },
+    "test_theme_consistency_across_presentation": {
+      "min": 0.03297924995422363,
+      "max": 0.03297924995422363,
+      "avg": 0.03297924995422363,
+      "count": 1,
+      "total": 0.03297924995422363
+    },
+    "test_complex_content_handling": {
+      "min": 0.030437707901000977,
+      "max": 0.030437707901000977,
+      "avg": 0.030437707901000977,
+      "count": 1,
+      "total": 0.030437707901000977
+    },
+    "test_slide_complexity_analysis": {
+      "min": 0.025831222534179688,
+      "max": 0.025831222534179688,
+      "avg": 0.025831222534179688,
+      "count": 1,
+      "total": 0.025831222534179688
+    },
+    "test_layout_quality_metrics": {
+      "min": 0.029033184051513672,
+      "max": 0.029033184051513672,
+      "avg": 0.029033184051513672,
+      "count": 1,
+      "total": 0.029033184051513672
+    },
+    "test_semantic_accuracy": {
+      "min": 0.02248072624206543,
+      "max": 0.02248072624206543,
+      "avg": 0.02248072624206543,
+      "count": 1,
+      "total": 0.02248072624206543
+    },
+    "test_performance_scaling": {
+      "min": 0.021670818328857422,
+      "max": 0.021670818328857422,
+      "avg": 0.021670818328857422,
+      "count": 1,
+      "total": 0.021670818328857422
+    },
+    "test_concurrent_generation": {
+      "min": 0.02256917953491211,
+      "max": 0.02256917953491211,
+      "avg": 0.02256917953491211,
+      "count": 1,
+      "total": 0.02256917953491211
+    },
+    "test_gemini_models": {
+      "min": 0.0027854442596435547,
+      "max": 0.0027854442596435547,
+      "avg": 0.0027854442596435547,
+      "count": 1,
+      "total": 0.0027854442596435547
+    },
+    "test_layout_generation_state_handler": {
+      "min": 0.009584665298461914,
+      "max": 0.009584665298461914,
+      "avg": 0.009584665298461914,
+      "count": 1,
+      "total": 0.009584665298461914
+    },
+    "test_websocket_message_flow": {
+      "min": 0.009447097778320312,
+      "max": 0.009447097778320312,
+      "avg": 0.009447097778320312,
+      "count": 1,
+      "total": 0.009447097778320312
+    },
+    "test_strawman_from_context": {
+      "min": 3.329848527908325,
+      "max": 3.329848527908325,
+      "avg": 3.329848527908325,
+      "count": 1,
+      "total": 3.329848527908325
+    },
+    "test_error_handling_no_strawman": {
+      "min": 0.00808572769165039,
+      "max": 0.00808572769165039,
+      "avg": 0.00808572769165039,
+      "count": 1,
+      "total": 0.00808572769165039
+    },
+    "test_layout_architect_mvp_compatibility": {
+      "min": 2.3585779666900635,
+      "max": 2.3585779666900635,
+      "avg": 2.3585779666900635,
+      "count": 1,
+      "total": 2.3585779666900635
+    },
+    "test_orchestrator_direct_integration": {
+      "min": 0.03024601936340332,
+      "max": 0.03024601936340332,
+      "avg": 0.03024601936340332,
+      "count": 1,
+      "total": 0.03024601936340332
+    },
+    "test_state_transition_flow": {
+      "min": 0.0014028549194335938,
+      "max": 0.0014028549194335938,
+      "avg": 0.0014028549194335938,
+      "count": 1,
+      "total": 0.0014028549194335938
+    },
+    "test_session_state_persistence": {
+      "min": 0.0012044906616210938,
+      "max": 0.0012044906616210938,
+      "avg": 0.0012044906616210938,
+      "count": 1,
+      "total": 0.0012044906616210938
+    },
+    "test_investor_pitch_scenario": {
+      "min": 0.007065296173095703,
+      "max": 0.007065296173095703,
+      "avg": 0.007065296173095703,
+      "count": 1,
+      "total": 0.007065296173095703
+    },
+    "test_educational_content_scenario": {
+      "min": 0.006188392639160156,
+      "max": 0.006188392639160156,
+      "avg": 0.006188392639160156,
+      "count": 1,
+      "total": 0.006188392639160156
+    },
+    "test_quarterly_review_scenario": {
+      "min": 0.005594730377197266,
+      "max": 0.005594730377197266,
+      "avg": 0.005594730377197266,
+      "count": 1,
+      "total": 0.005594730377197266
+    },
+    "test_empty_slide": {
+      "min": 0.03202462196350098,
+      "max": 0.03202462196350098,
+      "avg": 0.03202462196350098,
+      "count": 1,
+      "total": 0.03202462196350098
+    },
+    "test_overloaded_slide": {
+      "min": 0.030406713485717773,
+      "max": 0.030406713485717773,
+      "avg": 0.030406713485717773,
+      "count": 1,
+      "total": 0.030406713485717773
+    },
+    "test_invalid_slide_type": {
+      "min": 0.030626535415649414,
+      "max": 0.030626535415649414,
+      "avg": 0.030626535415649414,
+      "count": 1,
+      "total": 0.030626535415649414
+    },
+    "test_missing_api_key": {
+      "min": 0.029698848724365234,
+      "max": 0.029698848724365234,
+      "avg": 0.029698848724365234,
+      "count": 1,
+      "total": 0.029698848724365234
+    },
+    "test_malformed_configuration": {
+      "min": 0.03101515769958496,
+      "max": 0.03101515769958496,
+      "avg": 0.03101515769958496,
+      "count": 1,
+      "total": 0.03101515769958496
+    },
+    "test_unicode_content": {
+      "min": 0.03026604652404785,
+      "max": 0.03026604652404785,
+      "avg": 0.03026604652404785,
+      "count": 1,
+      "total": 0.03026604652404785
+    },
+    "test_extremely_long_text": {
+      "min": 0.02588677406311035,
+      "max": 0.02588677406311035,
+      "avg": 0.02588677406311035,
+      "count": 1,
+      "total": 0.02588677406311035
+    },
+    "test_null_values": {
+      "min": 0.021888017654418945,
+      "max": 0.021888017654418945,
+      "avg": 0.021888017654418945,
+      "count": 1,
+      "total": 0.021888017654418945
+    },
+    "test_circular_relationships": {
+      "min": 0.023560762405395508,
+      "max": 0.023560762405395508,
+      "avg": 0.023560762405395508,
+      "count": 1,
+      "total": 0.023560762405395508
+    },
+    "test_resource_constraints": {
+      "min": 0.024984121322631836,
+      "max": 0.024984121322631836,
+      "avg": 0.024984121322631836,
+      "count": 1,
+      "total": 0.024984121322631836
+    },
+    "test_timeout_handling": {
+      "min": 0.021428823471069336,
+      "max": 0.021428823471069336,
+      "avg": 0.021428823471069336,
+      "count": 1,
+      "total": 0.021428823471069336
+    },
+    "test_minimum_container_size": {
+      "min": 0.022077083587646484,
+      "max": 0.022077083587646484,
+      "avg": 0.022077083587646484,
+      "count": 1,
+      "total": 0.022077083587646484
+    },
+    "test_maximum_grid_utilization": {
+      "min": 0.022261381149291992,
+      "max": 0.022261381149291992,
+      "avg": 0.022261381149291992,
+      "count": 1,
+      "total": 0.022261381149291992
+    },
+    "test_edge_positioning": {
+      "min": 0.021447420120239258,
+      "max": 0.021447420120239258,
+      "avg": 0.021447420120239258,
+      "count": 1,
+      "total": 0.021447420120239258
+    },
+    "test_partial_failure_recovery": {
+      "min": 0.025174856185913086,
+      "max": 0.025174856185913086,
+      "avg": 0.025174856185913086,
+      "count": 1,
+      "total": 0.025174856185913086
+    },
+    "test_fallback_theme_generation": {
+      "min": 0.03047323226928711,
+      "max": 0.03047323226928711,
+      "avg": 0.03047323226928711,
+      "count": 1,
+      "total": 0.03047323226928711
+    },
+    "test_graceful_degradation": {
+      "min": 0.026012897491455078,
+      "max": 0.026012897491455078,
+      "avg": 0.026012897491455078,
+      "count": 1,
+      "total": 0.026012897491455078
+    },
+    "test_visual_balance_metrics": {
+      "min": 0.02365398406982422,
+      "max": 0.02365398406982422,
+      "avg": 0.02365398406982422,
+      "count": 1,
+      "total": 0.02365398406982422
+    },
+    "test_alignment_quality": {
+      "min": 0.024611711502075195,
+      "max": 0.024611711502075195,
+      "avg": 0.024611711502075195,
+      "count": 1,
+      "total": 0.024611711502075195
+    },
+    "test_spacing_consistency": {
+      "min": 0.02940654754638672,
+      "max": 0.02940654754638672,
+      "avg": 0.02940654754638672,
+      "count": 1,
+      "total": 0.02940654754638672
+    },
+    "test_readability_scores": {
+      "min": 0.029772520065307617,
+      "max": 0.029772520065307617,
+      "avg": 0.029772520065307617,
+      "count": 1,
+      "total": 0.029772520065307617
+    },
+    "test_quality_by_industry": {
+      "min": 0.024423837661743164,
+      "max": 0.024423837661743164,
+      "avg": 0.024423837661743164,
+      "count": 1,
+      "total": 0.024423837661743164
+    },
+    "test_memory_efficiency": {
+      "min": 0.022940397262573242,
+      "max": 0.022940397262573242,
+      "avg": 0.022940397262573242,
+      "count": 1,
+      "total": 0.022940397262573242
+    },
+    "test_generate_quality_report": {
+      "min": 0.02958822250366211,
+      "max": 0.02958822250366211,
+      "avg": 0.02958822250366211,
+      "count": 1,
+      "total": 0.02958822250366211
+    },
+    "test_imports_work": {
+      "min": 0.0005118846893310547,
+      "max": 0.0005118846893310547,
+      "avg": 0.0005118846893310547,
+      "count": 1,
+      "total": 0.0005118846893310547
+    },
+    "test_create_slide": {
+      "min": 0.0004999637603759766,
+      "max": 0.0004999637603759766,
+      "avg": 0.0004999637603759766,
+      "count": 1,
+      "total": 0.0004999637603759766
+    },
+    "test_create_mvp_layout": {
+      "min": 0.0016171932220458984,
+      "max": 0.0016171932220458984,
+      "avg": 0.0016171932220458984,
+      "count": 1,
+      "total": 0.0016171932220458984
+    },
+    "test_create_theme_definition": {
+      "min": 0.0015780925750732422,
+      "max": 0.0015780925750732422,
+      "avg": 0.0015780925750732422,
+      "count": 1,
+      "total": 0.0015780925750732422
+    },
+    "test_simple_agent": {
+      "min": 0.003485441207885742,
+      "max": 0.003485441207885742,
+      "avg": 0.003485441207885742,
+      "count": 1,
+      "total": 0.003485441207885742
+    },
+    "test_structure_agent_direct": {
+      "min": 0.0032417774200439453,
+      "max": 0.0032417774200439453,
+      "avg": 0.0032417774200439453,
+      "count": 1,
+      "total": 0.0032417774200439453
+    }
+  },
+  "raw_data": {
+    "test_font_pairing_tool": [
+      0.0679922103881836
+    ],
+    "test_color_palette_generation": [
+      0.009990453720092773
+    ],
+    "test_structure_analysis_title_slide": [
+      1.3104050159454346
+    ],
+    "test_structure_analysis_content_heavy": [
+      0.00841069221496582
+    ],
+    "test_structure_analysis_visual_heavy": [
+      1.5519793033599854
+    ],
+    "test_structure_analysis_data_driven": [
+      0.009906768798828125
+    ],
+    "test_content_parsing_tool": [
+      0.005529880523681641
+    ],
+    "test_relationship_detection": [
+      0.005334377288818359
+    ],
+    "test_layout_patterns": [
+      0.009827375411987305
+    ],
+    "test_visual_balance_scoring": [
+      0.00908660888671875
+    ],
+    "test_layout_validation": [
+      0.010148048400878906
+    ],
+    "test_single_slide_generation": [
+      0.02352452278137207
+    ],
+    "test_batch_generation": [
+      0.022629261016845703
+    ],
+    "test_industry_specific_generation[healthcare]": [
+      0.026464223861694336
+    ],
+    "test_industry_specific_generation[finance]": [
+      0.029564857482910156
+    ],
+    "test_industry_specific_generation[education]": [
+      0.027402400970458984
+    ],
+    "test_industry_specific_generation[technology]": [
+      0.11876630783081055
+    ],
+    "test_progressive_refinement": [
+      0.02978682518005371
+    ],
+    "test_theme_consistency_across_presentation": [
+      0.03297924995422363
+    ],
+    "test_complex_content_handling": [
+      0.030437707901000977
+    ],
+    "test_slide_complexity_analysis": [
+      0.025831222534179688
+    ],
+    "test_layout_quality_metrics": [
+      0.029033184051513672
+    ],
+    "test_semantic_accuracy": [
+      0.02248072624206543
+    ],
+    "test_performance_scaling": [
+      0.021670818328857422
+    ],
+    "test_concurrent_generation": [
+      0.02256917953491211
+    ],
+    "test_gemini_models": [
+      0.0027854442596435547
+    ],
+    "test_layout_generation_state_handler": [
+      0.009584665298461914
+    ],
+    "test_websocket_message_flow": [
+      0.009447097778320312
+    ],
+    "test_strawman_from_context": [
+      3.329848527908325
+    ],
+    "test_error_handling_no_strawman": [
+      0.00808572769165039
+    ],
+    "test_layout_architect_mvp_compatibility": [
+      2.3585779666900635
+    ],
+    "test_orchestrator_direct_integration": [
+      0.03024601936340332
+    ],
+    "test_state_transition_flow": [
+      0.0014028549194335938
+    ],
+    "test_session_state_persistence": [
+      0.0012044906616210938
+    ],
+    "test_investor_pitch_scenario": [
+      0.007065296173095703
+    ],
+    "test_educational_content_scenario": [
+      0.006188392639160156
+    ],
+    "test_quarterly_review_scenario": [
+      0.005594730377197266
+    ],
+    "test_empty_slide": [
+      0.03202462196350098
+    ],
+    "test_overloaded_slide": [
+      0.030406713485717773
+    ],
+    "test_invalid_slide_type": [
+      0.030626535415649414
+    ],
+    "test_missing_api_key": [
+      0.029698848724365234
+    ],
+    "test_malformed_configuration": [
+      0.03101515769958496
+    ],
+    "test_unicode_content": [
+      0.03026604652404785
+    ],
+    "test_extremely_long_text": [
+      0.02588677406311035
+    ],
+    "test_null_values": [
+      0.021888017654418945
+    ],
+    "test_circular_relationships": [
+      0.023560762405395508
+    ],
+    "test_resource_constraints": [
+      0.024984121322631836
+    ],
+    "test_timeout_handling": [
+      0.021428823471069336
+    ],
+    "test_minimum_container_size": [
+      0.022077083587646484
+    ],
+    "test_maximum_grid_utilization": [
+      0.022261381149291992
+    ],
+    "test_edge_positioning": [
+      0.021447420120239258
+    ],
+    "test_partial_failure_recovery": [
+      0.025174856185913086
+    ],
+    "test_fallback_theme_generation": [
+      0.03047323226928711
+    ],
+    "test_graceful_degradation": [
+      0.026012897491455078
+    ],
+    "test_visual_balance_metrics": [
+      0.02365398406982422
+    ],
+    "test_alignment_quality": [
+      0.024611711502075195
+    ],
+    "test_spacing_consistency": [
+      0.02940654754638672
+    ],
+    "test_readability_scores": [
+      0.029772520065307617
+    ],
+    "test_quality_by_industry": [
+      0.024423837661743164
+    ],
+    "test_memory_efficiency": [
+      0.022940397262573242
+    ],
+    "test_generate_quality_report": [
+      0.02958822250366211
+    ],
+    "test_imports_work": [
+      0.0005118846893310547
+    ],
+    "test_create_slide": [
+      0.0004999637603759766
+    ],
+    "test_create_mvp_layout": [
+      0.0016171932220458984
+    ],
+    "test_create_theme_definition": [
+      0.0015780925750732422
+    ],
+    "test_simple_agent": [
+      0.003485441207885742
+    ],
+    "test_structure_agent_direct": [
+      0.0032417774200439453
+    ]
+  }
+}

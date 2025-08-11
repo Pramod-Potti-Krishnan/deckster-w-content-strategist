@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "chart_type": "scatter",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nfrom io import BytesIO\nimport base64\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\nsns.set_palette('husl')\n\nx = [10.0, 50.0, 20.0, 80.0, 30.0]\ny = [110.0, 40.0, 130.0, 50.0, 150.0]\nax.scatter(x, y, alpha=0.6, s=100)\nax.set_xlabel('X Values')\nax.set_ylabel('Y Values')\nax.grid(True, alpha=0.3)\n\nplt.title('Ad Spend vs Revenue', fontsize=14, fontweight='bold')\nplt.tight_layout()\n\n# Save to base64\nbuffer = BytesIO()\nplt.savefig(buffer, format='png', dpi=100)\nbuffer.seek(0)\nimage_base64 = base64.b64encode(buffer.read()).decode()\nplt.close()\nprint(image_base64)",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 10.0
+    },
+    {
+      "label": "Point 3",
+      "value": 50.0
+    },
+    {
+      "label": "Point 5",
+      "value": 20.0
+    },
+    {
+      "label": "Point 7",
+      "value": 80.0
+    },
+    {
+      "label": "Point 9",
+      "value": 30.0
+    },
+    {
+      "label": "Point 11",
+      "value": 110.0
+    },
+    {
+      "label": "Point 13",
+      "value": 40.0
+    },
+    {
+      "label": "Point 15",
+      "value": 130.0
+    },
+    {
+      "label": "Point 17",
+      "value": 50.0
+    },
+    {
+      "label": "Point 19",
+      "value": 150.0
+    }
+  ],
+  "description": "Data extracted from user request for Ad Spend vs Revenue showing an upward trend from 10.00 to 150.00",
+  "insights": [
+    "Upward trend detected: 152.6% increase",
+    "Peak at Point 19 (150.00), lowest at Point 1 (10.00)"
+  ],
+  "metadata": {
+    "title": "Ad Spend vs Revenue",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "moderate",
+    "strategy_confidence": 0.9,
+    "data_points_count": 10
+  }
+}

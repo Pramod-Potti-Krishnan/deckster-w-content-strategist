@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "chart_type": "bar",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Global Customer Satisfaction\"\n    x-axis [\"North America\", \"Europe\", \"Asia Pacific\", \"Latin America\", \"Middle East\", \"Africa\"]\n    y-axis \"Value\"\n    bar [338.64, 803.65, 176.60, 314.08, 642.74, 662.08]",
+  "data": [
+    {
+      "label": "North America",
+      "value": 338.64
+    },
+    {
+      "label": "Europe",
+      "value": 803.65
+    },
+    {
+      "label": "Asia Pacific",
+      "value": 176.6
+    },
+    {
+      "label": "Latin America",
+      "value": 314.08
+    },
+    {
+      "label": "Middle East",
+      "value": 642.74
+    },
+    {
+      "label": "Africa",
+      "value": 662.08
+    }
+  ],
+  "description": "Synthetic data generated for Global Customer Satisfaction showing stable patterns across 6 data points.",
+  "insights": [
+    "Upward trend detected: 22.7% increase",
+    "Peak at Europe (803.65), lowest at Asia Pacific (176.60)"
+  ],
+  "metadata": {
+    "title": "Global Customer Satisfaction",
+    "num_data_points": 6,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 6
+  }
+}

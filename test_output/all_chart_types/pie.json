@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "chart_type": "pie",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\npie title Market Share Distribution\n    \"Company A\" : 35\n    \"Company B\" : 28\n    \"Company C\" : 22\n    \"Others\" : 15\n    \"Company A\" : 35\n    \"Company B\" : 28\n    \"Company C\" : 22\n    \"Others\" : 15",
+  "data": [
+    {
+      "label": "Company A",
+      "value": 35.0
+    },
+    {
+      "label": "Company B",
+      "value": 28.0
+    },
+    {
+      "label": "Company C",
+      "value": 22.0
+    },
+    {
+      "label": "Others",
+      "value": 15.0
+    },
+    {
+      "label": "Company A",
+      "value": 35.0
+    },
+    {
+      "label": "Company B",
+      "value": 28.0
+    },
+    {
+      "label": "Company C",
+      "value": 22.0
+    },
+    {
+      "label": "Others",
+      "value": 15.0
+    }
+  ],
+  "description": "Data extracted from user request for Market Share Distribution showing a downward trend from 35.00 to 15.00",
+  "insights": [
+    "Peak at Company A (35.00), lowest at Others (15.00)"
+  ],
+  "metadata": {
+    "title": "Market Share Distribution",
+    "num_data_points": 8,
+    "chart_syntax": "pie",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 8
+  }
+}

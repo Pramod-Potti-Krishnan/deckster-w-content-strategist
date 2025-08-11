@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "chart_type": "histogram",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nfrom io import BytesIO\nimport base64\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\nsns.set_palette('husl')\n\ndata = [231.71, 768.42, 172.43, 190.63, 226.55, 351.12]\nax.hist(data, bins=20, edgecolor='black', alpha=0.7)\nax.set_xlabel('Value')\nax.set_ylabel('Frequency')\nax.grid(True, alpha=0.3, axis='y')\n\nplt.title('Age Distribution', fontsize=14, fontweight='bold')\nplt.tight_layout()\n\n# Save to base64\nbuffer = BytesIO()\nplt.savefig(buffer, format='png', dpi=100)\nbuffer.seek(0)\nimage_base64 = base64.b64encode(buffer.read()).decode()\nplt.close()\nprint(image_base64)",
+  "data": [
+    {
+      "label": "Enterprise",
+      "value": 231.71
+    },
+    {
+      "label": "SMB",
+      "value": 768.42
+    },
+    {
+      "label": "Startup",
+      "value": 172.43
+    },
+    {
+      "label": "Individual",
+      "value": 190.63
+    },
+    {
+      "label": "Government",
+      "value": 226.55
+    },
+    {
+      "label": "Education",
+      "value": 351.12
+    }
+  ],
+  "description": "Synthetic data generated for Age Distribution showing stable patterns across 6 data points.",
+  "insights": [
+    "Downward trend detected: 34.5% decrease",
+    "SMB is an outlier with value 768.42",
+    "Peak at SMB (768.42), lowest at Startup (172.43)"
+  ],
+  "metadata": {
+    "title": "Age Distribution",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "complex",
+    "strategy_confidence": 0.9,
+    "data_points_count": 6
+  }
+}

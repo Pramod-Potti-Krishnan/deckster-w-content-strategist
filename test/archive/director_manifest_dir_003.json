@@ -1,0 +1,109 @@
+{
+  "slide_id": "dir_003",
+  "slide_type": "diagram_focused",
+  "structure_preference": null,
+  "target_audience": "healthcare_professionals",
+  "title": {
+    "text": "Our AI Solution Architecture",
+    "word_count": 5,
+    "priority": "P1"
+  },
+  "main_points": [],
+  "supporting_text": null,
+  "primary_visual": {
+    "visual_type": "diagram",
+    "description": "A technical but clear diagram illustrating the AI system's integration with healthcare infrastructure. It should depict a process flow from data ingestion, through AI processing and clinical integration, to the patient interface. The style should be clean and modern, with distinct nodes for each stage and clear connecting arrows.",
+    "chart_type": null,
+    "data_points": null,
+    "axes": null,
+    "data_insights": null,
+    "unit": null,
+    "image_prompt": null,
+    "image_style": null,
+    "style_keywords": null,
+    "composition": null,
+    "lighting": null,
+    "negative_prompt": null,
+    "diagram_type": "flowchart",
+    "nodes": [
+      {
+        "id": "node_0",
+        "label": "Data ingestion",
+        "type": "terminal",
+        "level": 0,
+        "shape": "rounded",
+        "color": "#27AE60",
+        "size": "medium"
+      },
+      {
+        "id": "node_1",
+        "label": "AI processing",
+        "type": "process",
+        "level": 1,
+        "shape": "rectangle",
+        "color": "#3498DB",
+        "size": "medium"
+      },
+      {
+        "id": "node_2",
+        "label": "Clinical integration",
+        "type": "process",
+        "level": 2,
+        "shape": "rectangle",
+        "color": "#3498DB",
+        "size": "medium"
+      },
+      {
+        "id": "node_3",
+        "label": "Patient interface",
+        "type": "terminal",
+        "level": 3,
+        "shape": "rounded",
+        "color": "#27AE60",
+        "size": "medium"
+      }
+    ],
+    "connections": [
+      {
+        "from_node": "node_0",
+        "to_node": "node_1",
+        "label": "",
+        "type": "arrow",
+        "line_style": "solid",
+        "arrow_type": "filled",
+        "width": 2
+      },
+      {
+        "from_node": "node_1",
+        "to_node": "node_2",
+        "label": "",
+        "type": "arrow",
+        "line_style": "solid",
+        "arrow_type": "filled",
+        "width": 2
+      },
+      {
+        "from_node": "node_2",
+        "to_node": "node_3",
+        "label": "",
+        "type": "arrow",
+        "line_style": "solid",
+        "arrow_type": "filled",
+        "width": 2
+      }
+    ],
+    "layout_direction": "left-right",
+    "space_requirement": "medium",
+    "layout_preference": "center",
+    "priority": "P1",
+    "handoff_ready": true
+  },
+  "supporting_visuals": [],
+  "total_word_count": 5,
+  "word_count_limit": 100,
+  "visual_count": 1,
+  "content_density": "medium",
+  "preferred_reading_flow": "F-pattern",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

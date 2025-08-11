@@ -1,0 +1,20 @@
+flowchart TD
+    receive("Receive Request")
+    validate["Validate Data"]
+    check{"Check Compliance"}
+    approve["Approve Request"]
+    reject["Reject Request"]
+    notify["Notify User"]
+    complete("Complete")
+
+    receive --> validate
+    validate --> check
+    check -- "Compliant" --> approve
+    check -- "Non-compliant" --> reject
+    approve --> notify
+    reject --> notify
+    notify --> complete
+
+    style check fill:#f9f,stroke:#333,stroke-width:2px
+    style approve fill:#bbf,stroke:#333,stroke-width:2px
+    style reject fill:#fbb,stroke:#333,stroke-width:2px

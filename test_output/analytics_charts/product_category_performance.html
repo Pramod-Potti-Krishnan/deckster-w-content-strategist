@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Category Performance</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .chart-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #666;
+            margin-right: 10px;
+        }
+        .info-value {
+            color: #333;
+        }
+        .mermaid {
+            background: white;
+            padding: 30px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            min-height: 400px;
+        }
+        .description {
+            margin: 20px 0;
+            padding: 20px;
+            background: #e8f4fd;
+            border-left: 4px solid #4a90e2;
+            border-radius: 5px;
+        }
+        .insights {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f0f8e8;
+            border-left: 4px solid #52c41a;
+            border-radius: 5px;
+        }
+        .insights h3 {
+            margin-top: 0;
+            color: #52c41a;
+        }
+        .insights ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .insights li {
+            margin: 5px 0;
+        }
+        .data-section {
+            margin-top: 30px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #e0e0e0;
+            padding: 12px;
+            text-align: left;
+        }
+        .data-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .data-table tr:hover {
+            background: #e8f4fd;
+        }
+        .code-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #2d2d2d;
+            border-radius: 8px;
+            color: #f8f8f2;
+        }
+        .code-section h3 {
+            color: #f8f8f2;
+            margin-top: 0;
+        }
+        pre {
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .badge-success {
+            background: #52c41a;
+            color: white;
+        }
+        .badge-info {
+            background: #1890ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Product Category Performance <span class="badge badge-success">bar</span></h1>
+        
+        <div class="chart-info">
+            <div class="info-item">
+                <span class="info-label">Chart Type:</span>
+                <span class="info-value">bar</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Format:</span>
+                <span class="info-value">mermaid</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Data Points:</span>
+                <span class="info-value">6</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Generated:</span>
+                <span class="info-value">2025-08-10 11:49:47</span>
+            </div>
+        </div>
+        
+        
+        <div class="description">
+            <strong>Description:</strong> Synthetic data generated for Product Category Performance showing stable patterns across 6 data points.
+        </div>
+        
+        
+        <div class="mermaid">
+%%{init: {'theme':'base'}}%%
+xychart-beta
+    title "Product Category Performance"
+    x-axis ["Electronics", "Clothing", "Food & Beverage", "Home & Garden", "Sports", "Books"]
+    y-axis "Value"
+    bar [37.37, 328.01, 954.07, 468.74, 768.40, 447.16]
+        </div>
+        
+        
+        <div class="insights">
+            <h3>📊 Key Insights</h3>
+            <ul>
+                <li>Upward trend detected: 27.7% increase</li>
+<li>Peak at Food & Beverage (954.07), lowest at Electronics (37.37)</li>
+            </ul>
+        </div>
+        
+        
+        <div class="data-section">
+            <h3>📈 Generated Data</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Electronics</td><td>37.37</td></tr>
+<tr><td>Clothing</td><td>328.01</td></tr>
+<tr><td>Food & Beverage</td><td>954.07</td></tr>
+<tr><td>Home & Garden</td><td>468.74</td></tr>
+<tr><td>Sports</td><td>768.40</td></tr>
+<tr><td>Books</td><td>447.16</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

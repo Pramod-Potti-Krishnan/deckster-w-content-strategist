@@ -1,0 +1,53 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+aiofiles
+
+# Pydantic and Validation
+pydantic
+pydantic-settings
+pydantic-ai
+
+# Database and Storage
+supabase
+redis[hiredis]
+asyncpg
+
+# AI/ML Services
+openai
+anthropic
+google-generativeai
+google-cloud-aiplatform  # For Vertex AI (Imagen 3)
+
+# Workflow Orchestration
+langgraph
+langgraph-checkpoint
+
+# Authentication and Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+
+# HTTP and Networking
+httpx
+requests
+aiohttp
+
+# Logging and Monitoring
+logfire
+
+# Utilities
+typing-extensions
+python-dateutil
+Pillow  # For image processing with Imagen
+rembg  # For AI-powered background removal
+
+# Diagram Generation
+mermaid-py  # Python wrapper for Mermaid.js rendering (uses mermaid.ink API)
+
+# Development/Testing (optional - uncomment if needed)
+# pytest
+# pytest-asyncio
+# pytest-cov

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-07-20T16:13:55.000511",
+  "performance_data": {
+    "test_layout_validation": {
+      "min": 0.014197349548339844,
+      "max": 0.014197349548339844,
+      "avg": 0.014197349548339844,
+      "count": 1,
+      "total": 0.014197349548339844
+    }
+  },
+  "raw_data": {
+    "test_layout_validation": [
+      0.014197349548339844
+    ]
+  }
+}

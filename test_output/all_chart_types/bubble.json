@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "chart_type": "bubble",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\n\nx = [100.0, 20.0, 15.0, 150.0]\ny = [40.0, 25.0, 80.0, 30.0, 10.0]\nsizes = np.random.randint(50, 500, len(x))\ncolors = np.random.rand(len(x))\n\nax.scatter(x, y, s=sizes, c=colors, alpha=0.5, cmap='viridis')\nax.set_xlabel('X Values')\nax.set_ylabel('Y Values')\nax.set_title('Product Analysis')\nax.grid(True, alpha=0.3)\n\nplt.colorbar(ax.collections[0], ax=ax, label='Color Scale')\nplt.tight_layout()",
+  "data": [
+    {
+      "label": "Point 1",
+      "value": 100.0
+    },
+    {
+      "label": "Point 3",
+      "value": 20.0
+    },
+    {
+      "label": "Point 5",
+      "value": 15.0
+    },
+    {
+      "label": "Point 7",
+      "value": 150.0
+    },
+    {
+      "label": "Point 9",
+      "value": 40.0
+    },
+    {
+      "label": "Point 11",
+      "value": 25.0
+    },
+    {
+      "label": "Point 13",
+      "value": 80.0
+    },
+    {
+      "label": "Point 15",
+      "value": 30.0
+    },
+    {
+      "label": "Point 17",
+      "value": 10.0
+    }
+  ],
+  "description": "Data extracted from user request for Product Analysis showing a downward trend from 100.00 to 10.00",
+  "insights": [
+    "Downward trend detected: 48.1% decrease",
+    "Point 7 is an outlier with value 150.00",
+    "Peak at Point 7 (150.00), lowest at Point 17 (10.00)"
+  ],
+  "metadata": {
+    "title": "Product Analysis",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "complex",
+    "strategy_confidence": 0.9,
+    "data_points_count": 9
+  }
+}

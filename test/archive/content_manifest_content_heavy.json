@@ -1,0 +1,47 @@
+{
+  "slide_id": "test_content_heavy_001",
+  "slide_type": "content_heavy",
+  "structure_preference": "Two-column layout",
+  "target_audience": "executives",
+  "title": {
+    "text": "Key Benefits Overview",
+    "word_count": 3,
+    "priority": "P1"
+  },
+  "main_points": [
+    {
+      "text": "Reduced operational costs by 25%.",
+      "word_count": 5,
+      "priority": "P2"
+    },
+    {
+      "text": "Improved customer satisfaction scores.",
+      "word_count": 4,
+      "priority": "P2"
+    },
+    {
+      "text": "Faster time to market.",
+      "word_count": 4,
+      "priority": "P2"
+    },
+    {
+      "text": "Enhanced team productivity.",
+      "word_count": 3,
+      "priority": "P2"
+    }
+  ],
+  "supporting_text": {
+    "text": "Our AI-driven solution delivers tangible results, significantly reducing operational costs and boosting efficiency. We've achieved a 25% cost reduction, alongside marked improvements in customer satisfaction and faster product delivery. Our innovations empower teams, leading to enhanced productivity and a stronger competitive edge.",
+    "word_count": 52,
+    "priority": "P3"
+  },
+  "primary_visual": null,
+  "supporting_visuals": [],
+  "total_word_count": 71,
+  "word_count_limit": 42,
+  "visual_count": 0,
+  "content_density": "medium",
+  "preferred_reading_flow": "two-column",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

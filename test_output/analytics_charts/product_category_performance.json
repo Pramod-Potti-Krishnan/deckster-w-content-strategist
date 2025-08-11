@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "chart_type": "bar",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Product Category Performance\"\n    x-axis [\"Electronics\", \"Clothing\", \"Food & Beverage\", \"Home & Garden\", \"Sports\", \"Books\"]\n    y-axis \"Value\"\n    bar [37.37, 328.01, 954.07, 468.74, 768.40, 447.16]",
+  "data": [
+    {
+      "label": "Electronics",
+      "value": 37.37
+    },
+    {
+      "label": "Clothing",
+      "value": 328.01
+    },
+    {
+      "label": "Food & Beverage",
+      "value": 954.07
+    },
+    {
+      "label": "Home & Garden",
+      "value": 468.74
+    },
+    {
+      "label": "Sports",
+      "value": 768.4
+    },
+    {
+      "label": "Books",
+      "value": 447.16
+    }
+  ],
+  "description": "Synthetic data generated for Product Category Performance showing stable patterns across 6 data points.",
+  "insights": [
+    "Upward trend detected: 27.7% increase",
+    "Peak at Food & Beverage (954.07), lowest at Electronics (37.37)"
+  ],
+  "metadata": {
+    "title": "Product Category Performance",
+    "num_data_points": 6,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 6
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750">
+  
+  <defs>
+    <linearGradient id="pyramid_gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c7d2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  
+  <rect width="1000" height="750" fill="#ffffff" />
+  
+  
+  
+  
+  <path id="level_3_fill" d="M 256 569 L 744 569 L 676 466 L 324 466 Z" fill="#dbeafe" stroke="#dbeafe" stroke-width="2" />
+  <text id="level_3_text" x="500" y="538" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#1e293b">Operational Excellence and Daily Execution</text>
+  
+  
+  <path id="level_2_fill" d="M 330 459 L 670 459 L 594 344 L 406 344 Z" fill="#d1fae5" stroke="#d1fae5" stroke-width="2" />
+  <text id="level_2_text" x="500" y="415.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#1e293b"><tspan x="500" dy="0">Tactical Planning and Resource</tspan><tspan x="500" dy="1.2em">Management</tspan></text>
+  
+  
+  <path id="level_1_fill" d="M 410 338 L 590 338 L 500 188 Z" fill="#fef3c7" stroke="#fef3c7" stroke-width="2" />
+  
+  <text id="level_1_text" x="500" y="296.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#1e293b"><tspan x="500" dy="0">Strategic Vision and</tspan><tspan x="500" dy="1.2em">Leadership Excellence</tspan></text>
+  
+  
+  <text id="pyramid_title" x="500" y="100" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" font-weight="600" fill="#1e293b">Organizational Hierarchy</text>
+</svg>

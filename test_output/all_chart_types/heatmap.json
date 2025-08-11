@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "chart_type": "heatmap",
+  "format": "python_code",
+  "content": "import matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nfrom io import BytesIO\nimport base64\n\nplt.style.use('seaborn')\nfig, ax = plt.subplots(figsize=(10, 6))\nsns.set_palette('husl')\n\ndata = np.array([103.16, 791.32, 555.92, 1000.07]).reshape(2, 2)\nsns.heatmap(data, annot=True, fmt='.1f', cmap='coolwarm', ax=ax)\nax.set_xlabel('X Dimension')\nax.set_ylabel('Y Dimension')\n\nplt.title('Correlation Matrix', fontsize=14, fontweight='bold')\nplt.tight_layout()\n\n# Save to base64\nbuffer = BytesIO()\nplt.savefig(buffer, format='png', dpi=100)\nbuffer.seek(0)\nimage_base64 = base64.b64encode(buffer.read()).decode()\nplt.close()\nprint(image_base64)",
+  "data": [
+    {
+      "label": "Category A",
+      "value": 103.16
+    },
+    {
+      "label": "Category B",
+      "value": 791.32
+    },
+    {
+      "label": "Category C",
+      "value": 555.92
+    },
+    {
+      "label": "Category D",
+      "value": 1000.07
+    },
+    {
+      "label": "Category E",
+      "value": 146.28
+    },
+    {
+      "label": "Category F",
+      "value": 407.32
+    }
+  ],
+  "description": "Synthetic data generated for Correlation Matrix showing stable patterns across 6 data points.",
+  "insights": [
+    "Peak at Category D (1000.07), lowest at Category A (103.16)"
+  ],
+  "metadata": {
+    "title": "Correlation Matrix",
+    "library": "matplotlib",
+    "execution": "code_only",
+    "note": "MCP not available, returning Python code",
+    "plan_complexity": "complex",
+    "strategy_confidence": 0.9,
+    "data_points_count": 6
+  }
+}

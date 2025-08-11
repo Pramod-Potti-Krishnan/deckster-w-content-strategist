@@ -1,0 +1,57 @@
+{
+  "slide_id": "test_visual_heavy_001",
+  "slide_type": "visual_heavy",
+  "structure_preference": "Hero Image / Full-Bleed",
+  "target_audience": "executives",
+  "title": {
+    "text": "The Future of Healthcare AI",
+    "word_count": 5,
+    "priority": "P1"
+  },
+  "main_points": [],
+  "supporting_text": {
+    "text": "AI is revolutionizing healthcare, offering advanced diagnostics, personalized treatments, and predictive health insights to enhance patient outcomes and operational efficiency.",
+    "word_count": 24,
+    "priority": "P1"
+  },
+  "primary_visual": {
+    "visual_type": "image",
+    "description": "A vision of how AI will transform patient care.",
+    "chart_type": null,
+    "data_points": null,
+    "axes": null,
+    "data_insights": null,
+    "unit": null,
+    "image_prompt": "An image that Create immediate visual impact and convey a sense of advanced, AI-driven healthcare. through visual representation of A vision of how AI will transform patient care in a futuristic hospital setting. The composition features Modern hospital interior, AI elements overlaid, doctors using advanced technology arranged in a harmonious layout that guides the viewer's eye naturally through the image. The visual style should be modern, high-end, sleek, corporate, sophisticated, creating a professional atmosphere that resonates with the target audience. Lighting: even, soft lighting with subtle shadows for depth. High resolution, professional photography quality, sharp focus, depth of field for visual hierarchy.",
+    "image_style": null,
+    "style_keywords": [
+      "modern",
+      "high-end",
+      "sleek",
+      "corporate",
+      "sophisticated",
+      "clean",
+      "premium",
+      "minimalist"
+    ],
+    "composition": "rule_of_thirds",
+    "lighting": "even, soft lighting with subtle shadows for depth",
+    "negative_prompt": "low quality, blurry, pixelated, amateur, cluttered, casual, playful, informal",
+    "diagram_type": null,
+    "nodes": null,
+    "connections": null,
+    "layout_direction": null,
+    "space_requirement": "large",
+    "layout_preference": "center-focused",
+    "priority": "P1",
+    "handoff_ready": true
+  },
+  "supporting_visuals": [],
+  "total_word_count": 40,
+  "word_count_limit": 60,
+  "visual_count": 1,
+  "content_density": "medium",
+  "preferred_reading_flow": "visual-first",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

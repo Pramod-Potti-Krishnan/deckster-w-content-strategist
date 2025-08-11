@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "chart_type": "line",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Monthly Revenue Growth Trend\"\n    x-axis [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"]\n    y-axis \"Value\"\n    line [159.90, 681.50, 941.18, 464.11, 622.03, 1044.27, 325.69, 997.16, 196.72, 916.78, 254.89, 565.78]",
+  "data": [
+    {
+      "label": "Jan",
+      "value": 159.9
+    },
+    {
+      "label": "Feb",
+      "value": 681.5
+    },
+    {
+      "label": "Mar",
+      "value": 941.18
+    },
+    {
+      "label": "Apr",
+      "value": 464.11
+    },
+    {
+      "label": "May",
+      "value": 622.03
+    },
+    {
+      "label": "Jun",
+      "value": 1044.27
+    },
+    {
+      "label": "Jul",
+      "value": 325.69
+    },
+    {
+      "label": "Aug",
+      "value": 997.16
+    },
+    {
+      "label": "Sep",
+      "value": 196.72
+    },
+    {
+      "label": "Oct",
+      "value": 916.78
+    },
+    {
+      "label": "Nov",
+      "value": 254.89
+    },
+    {
+      "label": "Dec",
+      "value": 565.78
+    }
+  ],
+  "description": "Synthetic data generated for Monthly Revenue Growth Trend showing an upward trend across 12 data points.",
+  "insights": [
+    "Downward trend detected: 16.8% decrease",
+    "Peak at Jun (1044.27), lowest at Jan (159.90)"
+  ],
+  "metadata": {
+    "title": "Monthly Revenue Growth Trend",
+    "num_data_points": 12,
+    "chart_syntax": "xychart-beta",
+    "plan_complexity": "simple",
+    "strategy_confidence": 0.85,
+    "data_points_count": 12
+  }
+}

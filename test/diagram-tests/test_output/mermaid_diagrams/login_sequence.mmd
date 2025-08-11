@@ -1,0 +1,16 @@
+sequenceDiagram
+    actor User
+    participant Frontend
+    participant "API Server"
+    participant Database
+    participant Cache
+
+    User->>Frontend: Login Request
+    Frontend->>"API Server": POST /auth/login
+    "API Server"->>Cache: Check Session
+    Cache-->>"API Server": Session Not Found
+    "API Server"->>Database: Verify Credentials
+    Database-->>"API Server": User Data
+    "API Server"->>Cache: Store Session
+    "API Server"-->>Frontend: Auth Token
+    Frontend-->>User: Login Success

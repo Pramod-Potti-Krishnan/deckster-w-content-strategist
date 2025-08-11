@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 800 600" width="800" height="600">
+  
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  
+  
+  <rect width="800" height="600" fill="#ffffff" />
+  
+  
+  <line x1="400" y1="300" x2="400" y2="190" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="300" x2="500" y2="250" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="300" x2="500" y2="350" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="300" x2="400" y2="410" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="300" x2="300" y2="350" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="300" x2="300" y2="250" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  
+  
+  <circle id="spoke_1_fill" cx="400" cy="150" r="40" fill="#ec4899" stroke="#ec4899" stroke-width="2" filter="url(#shadow)" />
+  <text id="spoke_1_text" x="400" y="145.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#ffffff"><tspan x="400" dy="0">Marketing</tspan><tspan x="400" dy="1.2em">Team</tspan></text>
+  
+  
+  <circle id="spoke_2_fill" cx="520" cy="210" r="40" fill="#06b6d4" stroke="#06b6d4" stroke-width="2" filter="url(#shadow)" />
+  <text id="spoke_2_text" x="520" y="205.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#ffffff"><tspan x="520" dy="0">Sales</tspan><tspan x="520" dy="1.2em">Operations</tspan></text>
+  
+  
+  <circle id="spoke_3_fill" cx="520" cy="390" r="40" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="2" filter="url(#shadow)" />
+  <text id="spoke_3_text" x="520" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#ffffff">Engineering</text>
+  
+  
+  <circle id="spoke_4_fill" cx="400" cy="450" r="40" fill="#f59e0b" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)" />
+  <text id="spoke_4_text" x="400" y="445.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#ffffff"><tspan x="400" dy="0">Customer</tspan><tspan x="400" dy="1.2em">Support</tspan></text>
+  
+  
+  <circle id="spoke_5_fill" cx="280" cy="390" r="40" fill="#ef4444" stroke="#ef4444" stroke-width="2" filter="url(#shadow)" />
+  <text id="spoke_5_text" x="280" y="385.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#ffffff"><tspan x="280" dy="0">Finance &amp;</tspan><tspan x="280" dy="1.2em">Admin</tspan></text>
+  
+  
+  <circle id="spoke_6_fill" cx="280" cy="210" r="40" fill="#ec4899" stroke="#ec4899" stroke-width="2" filter="url(#shadow)" />
+  <text id="spoke_6_text" x="280" y="205.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#ffffff"><tspan x="280" dy="0">Human</tspan><tspan x="280" dy="1.2em">Resources</tspan></text>
+  
+  
+  <circle id="hub_fill" cx="400" cy="300" r="60" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="3" filter="url(#shadow)" />
+  <text id="hub_text" x="400" y="295.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#ffffff"><tspan x="400" dy="0">Central</tspan><tspan x="400" dy="1.2em">Platform</tspan></text>
+  
+  
+  <text id="hub_title" x="400" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1e293b">Department Integration Model</text>
+</svg>

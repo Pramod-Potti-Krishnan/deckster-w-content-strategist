@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 800 600" width="800" height="600">
+  
+  <defs>
+    <linearGradient id="pyramid_gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c7d2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  
+  <rect width="800" height="600" fill="#ffffff" />
+  
+  
+  <path id="level_3_fill" d="M 200 450 L 600 450 L 550 350 L 250 350 Z" fill="#4f46e5" stroke="#4f46e5" stroke-width="2" />
+  <text id="level_3_text" x="400" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#ffffff">Operational Support</text>
+  
+  
+  <path id="level_2_fill" d="M 250 350 L 550 350 L 500 250 L 300 250 Z" fill="#818cf8" stroke="#818cf8" stroke-width="2" />
+  <text id="level_2_text" x="400" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#ffffff">Tactical Execution</text>
+  
+  
+  <path id="level_1_fill" d="M 300 250 L 500 250 L 400 150 Z" fill="#a5b4fc" stroke="#a5b4fc" stroke-width="2" />
+  <text id="level_1_text" x="400" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#1e293b"><tspan x="400" dy="0">Strategic</tspan><tspan x="400" dy="1.2em">Planning</tspan></text>
+  
+  
+  <text id="pyramid_title" x="400" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1e293b">Pyramid Diagram</text>
+</svg>

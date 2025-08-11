@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XYChart Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11.9.0/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <h1>Testing XYChart Syntax</h1>
+    
+    <h2>Line Chart</h2>
+    <div class="mermaid">
+xychart-beta
+    title "Monthly Sales Trend"
+    x-axis [Jan, Feb, Mar, Apr, May, Jun]
+    y-axis
+    line [45000, 52000, 48000, 61000, 58000, 72000]
+    </div>
+
+    <h2>Bar Chart</h2>
+    <div class="mermaid">
+xychart-beta
+    title "Product Category Sales"
+    x-axis [Electronics, Clothing, Home, Sports, Books]
+    y-axis
+    bar [450000, 320000, 280000, 195000, 155000]
+    </div>
+
+    <h2>Combined Line and Bar</h2>
+    <div class="mermaid">
+xychart-beta
+    title "Sales Comparison"
+    x-axis [Q1, Q2, Q3, Q4]
+    y-axis
+    line [2500000, 3100000, 3400000, 4200000]
+    bar [2300000, 2900000, 3200000, 4000000]
+    </div>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>

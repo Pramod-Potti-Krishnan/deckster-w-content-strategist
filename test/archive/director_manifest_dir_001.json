@@ -1,0 +1,60 @@
+{
+  "slide_id": "dir_001",
+  "slide_type": "title_slide",
+  "structure_preference": "Hero Image",
+  "target_audience": "healthcare_professionals",
+  "title": {
+    "text": "AI-Powered Healthcare Revolution",
+    "word_count": 4,
+    "priority": "P1"
+  },
+  "main_points": [
+    {
+      "text": "Setting the stage for transformation, this presentation will explore how Artificial Intelligence is revolutionizing the healthcare landscape.",
+      "word_count": 21,
+      "priority": "P1"
+    },
+    {
+      "text": "We will delve into the ways AI is transforming patient care, enhancing diagnostics, and personalizing treatment plans.",
+      "word_count": 20,
+      "priority": "P2"
+    },
+    {
+      "text": "Discover how these advancements, powered by sophisticated AI algorithms and machine learning, are paving the way for a new era of medical innovation and improved patient outcomes.",
+      "word_count": 32,
+      "priority": "P3"
+    }
+  ],
+  "supporting_text": null,
+  "primary_visual": {
+    "visual_type": "image",
+    "description": "A clean and modern hero image representing the intersection of AI and healthcare. The image should convey a sense of innovation, advanced technology, and patient-centric care. Visualize abstract AI neural networks seamlessly integrating with medical imagery like DNA strands or patient data visualizations. The overall mood should be professional and inspiring.",
+    "chart_type": null,
+    "data_points": null,
+    "axes": null,
+    "data_insights": null,
+    "unit": null,
+    "image_prompt": null,
+    "image_style": "clean, modern, professional, inspiring",
+    "style_keywords": null,
+    "composition": null,
+    "lighting": null,
+    "negative_prompt": null,
+    "diagram_type": null,
+    "nodes": null,
+    "connections": null,
+    "layout_direction": null,
+    "space_requirement": "full-width",
+    "layout_preference": "center",
+    "priority": "P1",
+    "handoff_ready": true
+  },
+  "supporting_visuals": [],
+  "total_word_count": 90,
+  "word_count_limit": 100,
+  "visual_count": 1,
+  "content_density": "medium",
+  "preferred_reading_flow": "linear",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 800 600" width="800" height="600">
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  
+  
+  <rect width="800" height="600" fill="#ffffff" />
+  
+  
+  
+  <path d="M 450 200 Q 550 200, 550 300" stroke="#94a3b8" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  
+  
+  <path d="M 550 350 Q 550 450, 450 450" stroke="#94a3b8" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  
+  
+  <path d="M 350 450 Q 250 450, 250 350" stroke="#94a3b8" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  
+  
+  <path d="M 250 300 Q 250 200, 350 200" stroke="#94a3b8" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  
+  
+  <rect id="step_1_fill" x="325" y="170" width="150" height="60" rx="8" fill="#3b82f6" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)" />
+  <text id="step_1_text" x="400" y="195.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#ffffff"><tspan x="400" dy="0">Plan and</tspan><tspan x="400" dy="1.2em">Strategy...</tspan></text>
+  
+  
+  <rect id="step_2_fill" x="500" y="295" width="150" height="60" rx="8" fill="#10b981" stroke="#10b981" stroke-width="2" filter="url(#shadow)" />
+  <text id="step_2_text" x="575" y="320.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#ffffff"><tspan x="575" dy="0">Execute and</tspan><tspan x="575" dy="1.2em">Implement</tspan></text>
+  
+  
+  <rect id="step_3_fill" x="325" y="420" width="150" height="60" rx="8" fill="#f59e0b" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)" />
+  <text id="step_3_text" x="400" y="445.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#ffffff"><tspan x="400" dy="0">Monitor and</tspan><tspan x="400" dy="1.2em">Measure</tspan></text>
+  
+  
+  <rect id="step_4_fill" x="150" y="295" width="150" height="60" rx="8" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="2" filter="url(#shadow)" />
+  <text id="step_4_text" x="225" y="320.0" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#ffffff"><tspan x="225" dy="0">Optimize and</tspan><tspan x="225" dy="1.2em">Improve</tspan></text>
+  
+  
+  <text id="cycle_title" x="400" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1e293b">Continuous Improvement Cycle</text>
+</svg>

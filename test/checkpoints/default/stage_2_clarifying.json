@@ -1,0 +1,26 @@
+{
+  "checkpoint_version": "1.0",
+  "scenario": "default",
+  "stage": "ASK_CLARIFYING_QUESTIONS",
+  "timestamp": "2025-08-09T19:31:40.142798",
+  "context": {
+    "current_state": "ASK_CLARIFYING_QUESTIONS",
+    "conversation_history": [
+      {
+        "role": "assistant",
+        "content": "Hello! I'm Deckster, your AI presentation assistant. I can help you create professional, engaging presentations on any topic.\n\nWhat presentation would you like to build today?"
+      },
+      {
+        "role": "user",
+        "content": "I need a presentation about AI in healthcare, focusing on diagnostic applications and patient outcomes."
+      }
+    ],
+    "session_data": {
+      "user_initial_request": "I need a presentation about AI in healthcare, focusing on diagnostic applications and patient outcomes."
+    },
+    "user_intent": "BUILD_PRESENTATION"
+  },
+  "stage_outputs": {
+    "greeting": "Hello! I'm Deckster, your AI presentation assistant. I can help you create professional, engaging presentations on any topic.\n\nWhat presentation would you like to build today?"
+  }
+}

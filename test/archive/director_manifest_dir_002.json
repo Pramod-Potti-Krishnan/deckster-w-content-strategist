@@ -1,0 +1,97 @@
+{
+  "slide_id": "dir_002",
+  "slide_type": "data_driven",
+  "structure_preference": null,
+  "target_audience": "healthcare_professionals",
+  "title": {
+    "text": "The Healthcare Crisis: Rising Costs",
+    "word_count": 5,
+    "priority": "P1"
+  },
+  "main_points": [
+    {
+      "text": "Healthcare delivery faces significant challenges.",
+      "word_count": 6,
+      "priority": "P2"
+    },
+    {
+      "text": "Key issues include rising costs, staff shortages, and impacting patient outcomes.",
+      "word_count": 12,
+      "priority": "P2"
+    }
+  ],
+  "supporting_text": {
+    "text": "This upward trend in costs, coupled with existing staff shortages, puts immense pressure on the healthcare system and necessitates innovative solutions.",
+    "word_count": 26,
+    "priority": "P3"
+  },
+  "primary_visual": {
+    "visual_type": "chart",
+    "description": "A clean and modern line chart displaying a consistent upward trend in healthcare costs over the past five years, emphasizing the severity of the cost crisis.",
+    "chart_type": "line",
+    "data_points": [
+      {
+        "label": "Jan",
+        "value": 550.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Feb",
+        "value": 550.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Mar",
+        "value": 550.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "Apr",
+        "value": 550.0,
+        "series_a": null,
+        "series_b": null
+      },
+      {
+        "label": "May",
+        "value": 550.0,
+        "series_a": null,
+        "series_b": null
+      }
+    ],
+    "axes": {
+      "x_axis": "Year",
+      "y_axis": "Cost Increase (%)"
+    },
+    "data_insights": "Healthcare costs have shown a steady increase over the past five years, indicating a significant and ongoing challenge.",
+    "unit": null,
+    "image_prompt": null,
+    "image_style": null,
+    "style_keywords": [
+      "clean",
+      "modern",
+      "professional"
+    ],
+    "composition": null,
+    "lighting": null,
+    "negative_prompt": null,
+    "diagram_type": null,
+    "nodes": null,
+    "connections": null,
+    "layout_direction": null,
+    "space_requirement": "medium",
+    "layout_preference": "center",
+    "priority": "P2",
+    "handoff_ready": true
+  },
+  "supporting_visuals": [],
+  "total_word_count": 100,
+  "word_count_limit": 200,
+  "visual_count": 1,
+  "content_density": "medium",
+  "preferred_reading_flow": "F-pattern",
+  "emphasis_areas": [],
+  "grouping_suggestions": []
+}

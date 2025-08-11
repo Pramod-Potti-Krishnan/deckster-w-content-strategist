@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "chart_type": "radar",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Skills Assessment (Radar View)\"\n    x-axis [\"Communication\", \"Technical\", \"Leadership\", \"Problem Solving\", \"Creativity\", \"Communication\", \"Technical\", \"Leadership\", \"Problem Solving\", \"Creativity\"]\n    y-axis \"Value\"\n    bar [85, 75, 90, 80, 70, 85, 75, 90, 80, 70]",
+  "data": [
+    {
+      "label": "Communication",
+      "value": 85.0
+    },
+    {
+      "label": "Technical",
+      "value": 75.0
+    },
+    {
+      "label": "Leadership",
+      "value": 90.0
+    },
+    {
+      "label": "Problem Solving",
+      "value": 80.0
+    },
+    {
+      "label": "Creativity",
+      "value": 70.0
+    },
+    {
+      "label": "Communication",
+      "value": 85.0
+    },
+    {
+      "label": "Technical",
+      "value": 75.0
+    },
+    {
+      "label": "Leadership",
+      "value": 90.0
+    },
+    {
+      "label": "Problem Solving",
+      "value": 80.0
+    },
+    {
+      "label": "Creativity",
+      "value": 70.0
+    }
+  ],
+  "description": "Data extracted from user request for Skills Assessment showing a downward trend from 85.00 to 70.00",
+  "insights": [
+    "Peak at Leadership (90.00), lowest at Creativity (70.00)"
+  ],
+  "metadata": {
+    "title": "Skills Assessment",
+    "num_data_points": 10,
+    "chart_syntax": "radar",
+    "plan_complexity": "moderate",
+    "strategy_confidence": 0.85,
+    "data_points_count": 10
+  }
+}

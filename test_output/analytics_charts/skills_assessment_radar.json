@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "chart_type": "radar",
+  "format": "mermaid",
+  "content": "%%{init: {'theme':'base'}}%%\nxychart-beta\n    title \"Team Skills Assessment (Radar View)\"\n    x-axis [\"Sales\", \"Marketing\", \"Engineering\", \"Support\", \"HR\", \"Finance\", \"Operations\", \"R&D\", \"Legal\", \"IT\"]\n    y-axis \"Value\"\n    bar [919.33, 222.94, 50.05, 889.95, 878.97, 937.72, 195.79, 936.79, 933.36, 55.72]",
+  "data": [
+    {
+      "label": "Sales",
+      "value": 919.33
+    },
+    {
+      "label": "Marketing",
+      "value": 222.94
+    },
+    {
+      "label": "Engineering",
+      "value": 50.05
+    },
+    {
+      "label": "Support",
+      "value": 889.95
+    },
+    {
+      "label": "HR",
+      "value": 878.97
+    },
+    {
+      "label": "Finance",
+      "value": 937.72
+    },
+    {
+      "label": "Operations",
+      "value": 195.79
+    },
+    {
+      "label": "R&D",
+      "value": 936.79
+    },
+    {
+      "label": "Legal",
+      "value": 933.36
+    },
+    {
+      "label": "IT",
+      "value": 55.72
+    }
+  ],
+  "description": "Synthetic data generated for Team Skills Assessment showing stable patterns across 12 data points.",
+  "insights": [
+    "Peak at Finance (937.72), lowest at Engineering (50.05)"
+  ],
+  "metadata": {
+    "title": "Team Skills Assessment",
+    "num_data_points": 10,
+    "chart_syntax": "radar",
+    "plan_complexity": "moderate",
+    "strategy_confidence": 0.85,
+    "data_points_count": 10
+  }
+}

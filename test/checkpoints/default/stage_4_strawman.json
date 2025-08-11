@@ -1,0 +1,93 @@
+{
+  "checkpoint_version": "1.0",
+  "scenario": "default",
+  "stage": "GENERATE_STRAWMAN",
+  "timestamp": "2025-08-09T19:31:40.142907",
+  "context": {
+    "current_state": "GENERATE_STRAWMAN",
+    "conversation_history": [
+      {
+        "role": "assistant",
+        "content": "Hello! I'm Deckster, your AI presentation assistant. I can help you create professional, engaging presentations on any topic.\n\nWhat presentation would you like to build today?"
+      },
+      {
+        "role": "user",
+        "content": "I need a presentation about AI in healthcare, focusing on diagnostic applications and patient outcomes."
+      },
+      {
+        "role": "assistant",
+        "content": "Great topic! To create the perfect presentation for you, I need to understand your needs better:\n\u2022 Who is the target audience?\n\u2022 What is the primary goal?\n\u2022 How long should the presentation be?\n\u2022 Any specific diagnostic applications or patient outcomes to emphasize?"
+      },
+      {
+        "role": "user",
+        "content": "The audience will be healthcare professionals at a medical conference. They have basic understanding of AI but want practical applications. The presentation should be about 20 minutes long. Focus on recent case studies and real-world implementations. Include both benefits and challenges."
+      },
+      {
+        "role": "assistant",
+        "content": "Perfect! Based on your input, I'll create a 10-slide presentation.\n\u2022 Focus on practical AI applications in diagnostics and patient outcomes\n\u2022 Include real-world case studies from leading hospitals\n\u2022 Address both advantages and implementation challenges\n\u2022 Tailored for healthcare professionals with actionable insights\n\nDoes this structure work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, this looks good. Please proceed with creating the presentation."
+      }
+    ],
+    "session_data": {
+      "user_initial_request": "I need a presentation about AI in healthcare, focusing on diagnostic applications and patient outcomes.",
+      "clarifying_answers": {
+        "raw_answers": "The audience will be healthcare professionals at a medical conference. They have basic understanding of AI but want practical applications. The presentation should be about 20 minutes long. Focus on recent case studies and real-world implementations. Include both benefits and challenges.",
+        "parsed": {
+          "audience": "Healthcare professionals at a medical conference",
+          "audience_knowledge": "Basic understanding of AI",
+          "duration": "20 minutes",
+          "focus_areas": [
+            "Recent case studies",
+            "Real-world implementations"
+          ],
+          "requirements": [
+            "Include benefits",
+            "Include challenges",
+            "Practical applications"
+          ]
+        }
+      },
+      "confirmation_plan": {
+        "title": "AI in Healthcare: Transforming Patient Care",
+        "slide_count": 10,
+        "main_sections": [
+          "Introduction & Context",
+          "AI in Diagnostics",
+          "Real-world Case Studies",
+          "Patient Outcome Improvements",
+          "Challenges & Considerations",
+          "Future Outlook"
+        ],
+        "target_audience": "Healthcare professionals at medical conference",
+        "duration": "20 minutes",
+        "key_themes": [
+          "Practical applications",
+          "Evidence-based results",
+          "Balanced perspective"
+        ]
+      }
+    },
+    "user_intent": "BUILD_PRESENTATION"
+  },
+  "stage_outputs": {
+    "greeting": "Hello! I'm Deckster, your AI presentation assistant.",
+    "questions": {
+      "questions": [
+        "Who is the target audience?",
+        "What is the primary goal?",
+        "How long should the presentation be?",
+        "Any specific diagnostic applications or patient outcomes to emphasize?"
+      ],
+      "follow_up": null
+    },
+    "plan": {
+      "title": "AI in Healthcare: Transforming Patient Care",
+      "slide_count": 10,
+      "structure": "Introduction \u2192 Current State \u2192 Case Studies \u2192 Benefits/Challenges \u2192 Future",
+      "confirmed": true
+    }
+  }
+}
