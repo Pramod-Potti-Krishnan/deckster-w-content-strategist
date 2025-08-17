@@ -1,0 +1,59 @@
+{
+  "labels": [
+    "Product A",
+    "Product B",
+    "Product C",
+    "Product D"
+  ],
+  "values": [
+    450.0,
+    380.0,
+    520.0,
+    280.0
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 280.0,
+    "max": 520.0,
+    "mean": 407.5,
+    "median": 415.0,
+    "std": 88.71,
+    "total": 1630.0,
+    "count": 4
+  },
+  "raw_data": [
+    {
+      "label": "Product A",
+      "value": 450.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {}
+    },
+    {
+      "label": "Product B",
+      "value": 380.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {}
+    },
+    {
+      "label": "Product C",
+      "value": 520.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {}
+    },
+    {
+      "label": "Product D",
+      "value": 280.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {}
+    }
+  ]
+}

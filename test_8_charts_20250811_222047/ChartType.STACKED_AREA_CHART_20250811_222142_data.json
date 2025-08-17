@@ -1,0 +1,904 @@
+{
+  "labels": [
+    "Period_1",
+    "Period_1",
+    "Period_1",
+    "Period_1",
+    "Period_2",
+    "Period_2",
+    "Period_2",
+    "Period_2",
+    "Period_3",
+    "Period_3",
+    "Period_3",
+    "Period_3",
+    "Period_4",
+    "Period_4",
+    "Period_4",
+    "Period_4",
+    "Period_5",
+    "Period_5",
+    "Period_5",
+    "Period_5",
+    "Period_6",
+    "Period_6",
+    "Period_6",
+    "Period_6",
+    "Period_7",
+    "Period_7",
+    "Period_7",
+    "Period_7",
+    "Period_8",
+    "Period_8",
+    "Period_8",
+    "Period_8",
+    "Period_9",
+    "Period_9",
+    "Period_9",
+    "Period_9",
+    "Period_10",
+    "Period_10",
+    "Period_10",
+    "Period_10",
+    "Period_11",
+    "Period_11",
+    "Period_11",
+    "Period_11",
+    "Period_12",
+    "Period_12",
+    "Period_12",
+    "Period_12"
+  ],
+  "values": [
+    23.12,
+    31.76,
+    28.48,
+    26.48,
+    19.84,
+    19.84,
+    18.37,
+    30.49,
+    26.52,
+    28.12,
+    17.81,
+    32.05,
+    29.99,
+    20.69,
+    20.23,
+    20.25,
+    22.06,
+    25.37,
+    23.98,
+    21.87,
+    26.68,
+    19.59,
+    21.88,
+    23.0,
+    24.34,
+    29.28,
+    20.5,
+    25.21,
+    26.39,
+    18.2,
+    26.61,
+    20.06,
+    18.48,
+    31.73,
+    31.98,
+    29.63,
+    22.07,
+    18.97,
+    27.76,
+    24.1,
+    19.33,
+    24.93,
+    18.02,
+    31.14,
+    21.38,
+    27.44,
+    22.18,
+    25.3
+  ],
+  "series": [
+    {
+      "name": "Series_A",
+      "data": [
+        {
+          "label": "Period_1",
+          "value": 23.12
+        },
+        {
+          "label": "Period_2",
+          "value": 19.84
+        },
+        {
+          "label": "Period_3",
+          "value": 26.52
+        },
+        {
+          "label": "Period_4",
+          "value": 29.99
+        },
+        {
+          "label": "Period_5",
+          "value": 22.06
+        },
+        {
+          "label": "Period_6",
+          "value": 26.68
+        },
+        {
+          "label": "Period_7",
+          "value": 24.34
+        },
+        {
+          "label": "Period_8",
+          "value": 26.39
+        },
+        {
+          "label": "Period_9",
+          "value": 18.48
+        },
+        {
+          "label": "Period_10",
+          "value": 22.07
+        },
+        {
+          "label": "Period_11",
+          "value": 19.33
+        },
+        {
+          "label": "Period_12",
+          "value": 21.38
+        }
+      ]
+    },
+    {
+      "name": "Series_B",
+      "data": [
+        {
+          "label": "Period_1",
+          "value": 31.76
+        },
+        {
+          "label": "Period_2",
+          "value": 19.84
+        },
+        {
+          "label": "Period_3",
+          "value": 28.12
+        },
+        {
+          "label": "Period_4",
+          "value": 20.69
+        },
+        {
+          "label": "Period_5",
+          "value": 25.37
+        },
+        {
+          "label": "Period_6",
+          "value": 19.59
+        },
+        {
+          "label": "Period_7",
+          "value": 29.28
+        },
+        {
+          "label": "Period_8",
+          "value": 18.2
+        },
+        {
+          "label": "Period_9",
+          "value": 31.73
+        },
+        {
+          "label": "Period_10",
+          "value": 18.97
+        },
+        {
+          "label": "Period_11",
+          "value": 24.93
+        },
+        {
+          "label": "Period_12",
+          "value": 27.44
+        }
+      ]
+    },
+    {
+      "name": "Series_C",
+      "data": [
+        {
+          "label": "Period_1",
+          "value": 28.48
+        },
+        {
+          "label": "Period_2",
+          "value": 18.37
+        },
+        {
+          "label": "Period_3",
+          "value": 17.81
+        },
+        {
+          "label": "Period_4",
+          "value": 20.23
+        },
+        {
+          "label": "Period_5",
+          "value": 23.98
+        },
+        {
+          "label": "Period_6",
+          "value": 21.88
+        },
+        {
+          "label": "Period_7",
+          "value": 20.5
+        },
+        {
+          "label": "Period_8",
+          "value": 26.61
+        },
+        {
+          "label": "Period_9",
+          "value": 31.98
+        },
+        {
+          "label": "Period_10",
+          "value": 27.76
+        },
+        {
+          "label": "Period_11",
+          "value": 18.02
+        },
+        {
+          "label": "Period_12",
+          "value": 22.18
+        }
+      ]
+    },
+    {
+      "name": "Series_D",
+      "data": [
+        {
+          "label": "Period_1",
+          "value": 26.48
+        },
+        {
+          "label": "Period_2",
+          "value": 30.49
+        },
+        {
+          "label": "Period_3",
+          "value": 32.05
+        },
+        {
+          "label": "Period_4",
+          "value": 20.25
+        },
+        {
+          "label": "Period_5",
+          "value": 21.87
+        },
+        {
+          "label": "Period_6",
+          "value": 23.0
+        },
+        {
+          "label": "Period_7",
+          "value": 25.21
+        },
+        {
+          "label": "Period_8",
+          "value": 20.06
+        },
+        {
+          "label": "Period_9",
+          "value": 29.63
+        },
+        {
+          "label": "Period_10",
+          "value": 24.1
+        },
+        {
+          "label": "Period_11",
+          "value": 31.14
+        },
+        {
+          "label": "Period_12",
+          "value": 25.3
+        }
+      ]
+    }
+  ],
+  "categories": null,
+  "statistics": {
+    "min": 17.81,
+    "max": 32.05,
+    "mean": 24.24,
+    "median": 24.04,
+    "std": 4.34,
+    "total": 1163.5,
+    "count": 48
+  },
+  "raw_data": [
+    {
+      "label": "Period_1",
+      "value": 23.12,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 0,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_1",
+      "value": 31.76,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 0,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_1",
+      "value": 28.48,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 0,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_1",
+      "value": 26.48,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 0,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_2",
+      "value": 19.84,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 1,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_2",
+      "value": 19.84,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 1,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_2",
+      "value": 18.37,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 1,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_2",
+      "value": 30.49,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 1,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_3",
+      "value": 26.52,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 2,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_3",
+      "value": 28.12,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 2,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_3",
+      "value": 17.81,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 2,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_3",
+      "value": 32.05,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 2,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_4",
+      "value": 29.99,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 3,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_4",
+      "value": 20.69,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 3,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_4",
+      "value": 20.23,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 3,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_4",
+      "value": 20.25,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 3,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_5",
+      "value": 22.06,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 4,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_5",
+      "value": 25.37,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 4,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_5",
+      "value": 23.98,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 4,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_5",
+      "value": 21.87,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 4,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_6",
+      "value": 26.68,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 5,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_6",
+      "value": 19.59,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 5,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_6",
+      "value": 21.88,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 5,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_6",
+      "value": 23.0,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 5,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_7",
+      "value": 24.34,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 6,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_7",
+      "value": 29.28,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 6,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_7",
+      "value": 20.5,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 6,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_7",
+      "value": 25.21,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 6,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_8",
+      "value": 26.39,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 7,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_8",
+      "value": 18.2,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 7,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_8",
+      "value": 26.61,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 7,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_8",
+      "value": 20.06,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 7,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_9",
+      "value": 18.48,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 8,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_9",
+      "value": 31.73,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 8,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_9",
+      "value": 31.98,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 8,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_9",
+      "value": 29.63,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 8,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_10",
+      "value": 22.07,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 9,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_10",
+      "value": 18.97,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 9,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_10",
+      "value": 27.76,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 9,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_10",
+      "value": 24.1,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 9,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_11",
+      "value": 19.33,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 10,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_11",
+      "value": 24.93,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 10,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_11",
+      "value": 18.02,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 10,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_11",
+      "value": 31.14,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 10,
+        "series_index": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_12",
+      "value": 21.38,
+      "category": null,
+      "series": "Series_A",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 11,
+        "series_index": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_12",
+      "value": 27.44,
+      "category": null,
+      "series": "Series_B",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 11,
+        "series_index": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_12",
+      "value": 22.18,
+      "category": null,
+      "series": "Series_C",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 11,
+        "series_index": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Period_12",
+      "value": 25.3,
+      "category": null,
+      "series": "Series_D",
+      "timestamp": null,
+      "metadata": {
+        "time_index": 11,
+        "series_index": 3,
+        "synthetic": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+service.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+test_output/
+test_results/
+*_test_output/
+comprehensive_test_*/
+test_*/
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Generated files (but NOT templates!)
+# *.svg  # Commented out - we need SVG templates in repo
+*.png
+*.jpg
+*.jpeg
+output/
+generated/
+# Exclude generated SVGs but keep templates
+test_output/*.svg
+*_output/*.svg
+
+# Security
+*.pem
+*.key
+*.cert
+*.crt
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Python testing artifacts
+run_*.py
+test_*.py
+verify_*.py
+generate_*.py
+debug_*.py
+*_demo.py
+
+# Development scripts
+*.sh
+
+# Documentation builds
+docs/_build/
+site/
+
+# Backup files
+*.backup
+*.old
+*_backup/
+backup_*/
+archived_*/
+rollback_*/

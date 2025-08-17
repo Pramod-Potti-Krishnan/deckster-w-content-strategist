@@ -1,0 +1,139 @@
+{
+  "labels": [
+    "Category_A",
+    "Category_B",
+    "Category_C",
+    "Category_D",
+    "Category_E",
+    "Category_F",
+    "Category_G",
+    "Category_H",
+    "Category_I",
+    "Category_J"
+  ],
+  "values": [
+    58.28,
+    47.7,
+    60.79,
+    75.38,
+    46.1,
+    46.1,
+    76.32,
+    62.79,
+    42.18,
+    59.04
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 42.18,
+    "max": 76.32,
+    "mean": 57.47,
+    "median": 58.66,
+    "std": 11.43,
+    "total": 574.68,
+    "count": 10
+  },
+  "raw_data": [
+    {
+      "label": "Category_A",
+      "value": 58.28,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_B",
+      "value": 47.7,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_C",
+      "value": 60.79,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_D",
+      "value": 75.38,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_E",
+      "value": 46.1,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_F",
+      "value": 46.1,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_G",
+      "value": 76.32,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_H",
+      "value": 62.79,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_I",
+      "value": 42.18,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Category_J",
+      "value": 59.04,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "synthetic": true
+      }
+    }
+  ]
+}

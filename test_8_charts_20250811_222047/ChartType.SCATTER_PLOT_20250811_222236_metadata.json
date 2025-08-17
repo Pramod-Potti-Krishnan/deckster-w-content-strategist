@@ -1,0 +1,24 @@
+{
+  "chart_type": "scatter_plot",
+  "generation_method": "python_mcp",
+  "data_source": "synthetic",
+  "theme_applied": {
+    "primary": "#2563EB",
+    "secondary": "#EC4899",
+    "tertiary": "#06B6D4",
+    "style": "modern",
+    "gradient": true,
+    "transparency": 0.8,
+    "font_family": "Arial",
+    "font_size": 12
+  },
+  "insights": [
+    "Data range: 48.7 to 118.2",
+    "Average value: 84.2",
+    "Total data points: 12"
+  ],
+  "timestamp": "2025-08-11 22:22:36.656842",
+  "generation_time_ms": 5024.3659019470215,
+  "data_points_count": 12,
+  "llm_enhanced": true
+}

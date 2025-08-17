@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-08-11T22:22:36.657993",
+  "summary": {
+    "total": 8,
+    "successful": 8,
+    "failed": 0,
+    "success_rate": 1.0
+  },
+  "results": [
+    {
+      "chart_type": "bar_chart_horizontal",
+      "title": "Top Product Rankings - Horizontal",
+      "success": true,
+      "error": null,
+      "metadata": {
+        "chart_type": "bar_chart_horizontal",
+        "generation_method": "python_mcp",
+        "data_source": "synthetic",
+        "theme_applied": {
+          "primary": "#2563EB",
+          "secondary": "#EC4899",
+          "tertiary": "#06B6D4",
+          "style": "modern",
+          "gradient": true,
+          "transparency": 0.8,
+          "font_family": "Arial",
+          "font_size": 12
+        },
+        "insights": [
+          "Data range: 42.2 to 76.3",
+          "Average value: 57.5",
+          "Total data points: 10"
+        ],
+        "timestamp": 

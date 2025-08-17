@@ -1,0 +1,24 @@
+{
+  "chart_type": "violin_plot",
+  "generation_method": "python_mcp",
+  "data_source": "synthetic",
+  "theme_applied": {
+    "primary": "#2563EB",
+    "secondary": "#EC4899",
+    "tertiary": "#06B6D4",
+    "style": "modern",
+    "gradient": true,
+    "transparency": 0.8,
+    "font_family": "Arial",
+    "font_size": 12
+  },
+  "insights": [
+    "Data range: 48.7 to 80.5",
+    "Average value: 65.3",
+    "Total data points: 4"
+  ],
+  "timestamp": "2025-08-11 22:18:36.136407",
+  "generation_time_ms": 17160.868883132935,
+  "data_points_count": 4,
+  "llm_enhanced": true
+}

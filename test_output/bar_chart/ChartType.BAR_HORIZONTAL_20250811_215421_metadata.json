@@ -1,0 +1,25 @@
+{
+  "chart_type": "bar_chart_horizontal",
+  "generation_method": "python_mcp",
+  "data_source": "user",
+  "theme_applied": {
+    "primary": "#059669",
+    "secondary": "#DC2626",
+    "tertiary": "#7C3AED",
+    "style": "modern",
+    "gradient": true,
+    "transparency": 0.8,
+    "font_family": "Arial",
+    "font_size": 12
+  },
+  "insights": [
+    "Data range: 15000.0 to 52000.0",
+    "Average value: 35600.0",
+    "High variability in data",
+    "Total data points: 5"
+  ],
+  "timestamp": "2025-08-11 21:54:21.543896",
+  "generation_time_ms": 6012.482643127441,
+  "data_points_count": 5,
+  "llm_enhanced": true
+}

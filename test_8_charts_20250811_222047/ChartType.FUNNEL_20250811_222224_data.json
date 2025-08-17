@@ -1,0 +1,89 @@
+{
+  "labels": [
+    "Stage_1",
+    "Stage_2",
+    "Stage_3",
+    "Stage_4",
+    "Stage_5"
+  ],
+  "values": [
+    10000.0,
+    3000.0,
+    1000.0,
+    500.0,
+    200.0
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 200.0,
+    "max": 10000.0,
+    "mean": 2940.0,
+    "median": 1000.0,
+    "std": 3662.57,
+    "total": 14700.0,
+    "count": 5
+  },
+  "raw_data": [
+    {
+      "label": "Stage_1",
+      "value": 10000.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "conversion": 100.0,
+        "stage": 0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Stage_2",
+      "value": 3000.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "conversion": 30.0,
+        "stage": 1,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Stage_3",
+      "value": 1000.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "conversion": 10.0,
+        "stage": 2,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Stage_4",
+      "value": 500.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "conversion": 5.0,
+        "stage": 3,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Stage_5",
+      "value": 200.0,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "conversion": 2.0,
+        "stage": 4,
+        "synthetic": true
+      }
+    }
+  ]
+}

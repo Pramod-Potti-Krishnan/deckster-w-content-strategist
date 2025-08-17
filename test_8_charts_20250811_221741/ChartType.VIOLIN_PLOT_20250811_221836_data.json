@@ -1,0 +1,95 @@
+{
+  "labels": [
+    "Group_1",
+    "Group_2",
+    "Group_3",
+    "Group_4"
+  ],
+  "values": [
+    48.73,
+    60.84,
+    70.98,
+    80.5
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 48.73,
+    "max": 80.5,
+    "mean": 65.26,
+    "median": 65.91,
+    "std": 11.81,
+    "total": 261.05,
+    "count": 4
+  },
+  "raw_data": [
+    {
+      "label": "Group_1",
+      "value": 48.73,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "mean": 48.96,
+        "std": 9.04,
+        "q1": 43.99,
+        "q3": 54.06,
+        "min": 23.8,
+        "max": 68.52,
+        "samples": 100,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Group_2",
+      "value": 60.84,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "mean": 60.22,
+        "std": 9.49,
+        "q1": 51.94,
+        "q3": 65.38,
+        "min": 40.81,
+        "max": 87.2,
+        "samples": 100,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Group_3",
+      "value": 70.98,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "mean": 70.65,
+        "std": 10.79,
+        "q1": 63.45,
+        "q3": 77.04,
+        "min": 37.59,
+        "max": 108.53,
+        "samples": 100,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Group_4",
+      "value": 80.5,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "mean": 81.07,
+        "std": 8.8,
+        "q1": 74.33,
+        "q3": 86.84,
+        "min": 58.76,
+        "max": 101.9,
+        "samples": 100,
+        "synthetic": true
+      }
+    }
+  ]
+}

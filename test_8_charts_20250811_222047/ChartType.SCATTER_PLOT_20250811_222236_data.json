@@ -1,0 +1,187 @@
+{
+  "labels": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "P10",
+    "P11",
+    "P12"
+  ],
+  "values": [
+    74.81,
+    118.18,
+    99.85,
+    90.51,
+    61.65,
+    55.18,
+    48.89,
+    108.95,
+    89.04,
+    100.51,
+    48.72,
+    113.66
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 48.72,
+    "max": 118.18,
+    "mean": 84.16,
+    "median": 89.78,
+    "std": 24.42,
+    "total": 1009.95,
+    "count": 12
+  },
+  "raw_data": [
+    {
+      "label": "P1",
+      "value": 74.81,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 37.45,
+        "y": 74.81,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P2",
+      "value": 118.18,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 95.07,
+        "y": 118.18,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P3",
+      "value": 99.85,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 73.2,
+        "y": 99.85,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P4",
+      "value": 90.51,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 59.87,
+        "y": 90.51,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P5",
+      "value": 61.65,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 15.6,
+        "y": 61.65,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P6",
+      "value": 55.18,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 15.6,
+        "y": 55.18,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P7",
+      "value": 48.89,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 5.81,
+        "y": 48.89,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P8",
+      "value": 108.95,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 86.62,
+        "y": 108.95,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P9",
+      "value": 89.04,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 60.11,
+        "y": 89.04,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P10",
+      "value": 100.51,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 70.81,
+        "y": 100.51,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P11",
+      "value": 48.72,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 2.06,
+        "y": 48.72,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "P12",
+      "value": 113.66,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 96.99,
+        "y": 113.66,
+        "synthetic": true
+      }
+    }
+  ]
+}

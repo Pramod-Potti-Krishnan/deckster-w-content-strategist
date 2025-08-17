@@ -1,0 +1,97 @@
+{
+  "labels": [
+    "Dimension_1",
+    "Dimension_2",
+    "Dimension_3",
+    "Dimension_4",
+    "Dimension_5",
+    "Dimension_6"
+  ],
+  "values": [
+    37.45,
+    95.07,
+    73.2,
+    59.87,
+    15.6,
+    15.6
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 15.6,
+    "max": 95.07,
+    "mean": 49.47,
+    "median": 48.66,
+    "std": 29.41,
+    "total": 296.79,
+    "count": 6
+  },
+  "raw_data": [
+    {
+      "label": "Dimension_1",
+      "value": 37.45,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "dimension": "Dimension_1",
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Dimension_2",
+      "value": 95.07,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "dimension": "Dimension_2",
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Dimension_3",
+      "value": 73.2,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "dimension": "Dimension_3",
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Dimension_4",
+      "value": 59.87,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "dimension": "Dimension_4",
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Dimension_5",
+      "value": 15.6,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "dimension": "Dimension_5",
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Dimension_6",
+      "value": 15.6,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "dimension": "Dimension_6",
+        "synthetic": true
+      }
+    }
+  ]
+}

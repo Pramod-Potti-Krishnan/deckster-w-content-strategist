@@ -1,0 +1,244 @@
+{
+  "labels": [
+    "Entity_A",
+    "Entity_B",
+    "Entity_C",
+    "Entity_D",
+    "Entity_E",
+    "Entity_F",
+    "Entity_G",
+    "Entity_H",
+    "Entity_I",
+    "Entity_J",
+    "Entity_K",
+    "Entity_L",
+    "Entity_M",
+    "Entity_N",
+    "Entity_O"
+  ],
+  "values": [
+    95.07,
+    15.6,
+    86.62,
+    2.06,
+    21.23,
+    30.42,
+    29.12,
+    29.21,
+    78.52,
+    59.24,
+    17.05,
+    96.56,
+    9.77,
+    12.2,
+    90.93
+  ],
+  "series": null,
+  "categories": null,
+  "statistics": {
+    "min": 2.06,
+    "max": 96.56,
+    "mean": 44.91,
+    "median": 29.21,
+    "std": 34.08,
+    "total": 673.6,
+    "count": 15
+  },
+  "raw_data": [
+    {
+      "label": "Entity_A",
+      "value": 95.07,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 37.45,
+        "y": 95.07,
+        "size": 758.79,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_B",
+      "value": 15.6,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 59.87,
+        "y": 15.6,
+        "size": 240.4,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_C",
+      "value": 86.62,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 5.81,
+        "y": 86.62,
+        "size": 641.0,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_D",
+      "value": 2.06,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 70.81,
+        "y": 2.06,
+        "size": 972.92,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_E",
+      "value": 21.23,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 83.24,
+        "y": 21.23,
+        "size": 263.64,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_F",
+      "value": 30.42,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 18.34,
+        "y": 30.42,
+        "size": 572.28,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_G",
+      "value": 29.12,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 43.19,
+        "y": 29.12,
+        "size": 650.67,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_H",
+      "value": 29.21,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 13.95,
+        "y": 29.21,
+        "size": 429.73,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_I",
+      "value": 78.52,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 45.61,
+        "y": 78.52,
+        "size": 279.71,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_J",
+      "value": 59.24,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 51.42,
+        "y": 59.24,
+        "size": 141.81,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_K",
+      "value": 17.05,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 60.75,
+        "y": 17.05,
+        "size": 158.55,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_L",
+      "value": 96.56,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 94.89,
+        "y": 96.56,
+        "size": 827.56,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_M",
+      "value": 9.77,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 30.46,
+        "y": 9.77,
+        "size": 715.81,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_N",
+      "value": 12.2,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 44.02,
+        "y": 12.2,
+        "size": 545.66,
+        "synthetic": true
+      }
+    },
+    {
+      "label": "Entity_O",
+      "value": 90.93,
+      "category": null,
+      "series": null,
+      "timestamp": null,
+      "metadata": {
+        "x": 3.44,
+        "y": 90.93,
+        "size": 332.9,
+        "synthetic": true
+      }
+    }
+  ]
+}
