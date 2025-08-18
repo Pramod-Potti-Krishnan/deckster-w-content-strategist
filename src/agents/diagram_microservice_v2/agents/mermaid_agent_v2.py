@@ -71,16 +71,25 @@ class MermaidAgentV2(BaseAgent):
     
     async def supports(self, diagram_type: str) -> bool:
         """Check if diagram type is supported"""
+        # Normalize the input
+        normalized = diagram_type.lower().replace(" ", "_")
+        
         # Map user-friendly names to Mermaid syntax
         type_map = {
             "entity_relationship": "erDiagram",
+            "erdiagram": "erDiagram",  # Handle lowercase version
             "user_journey": "journey",
             "quadrant": "quadrantChart",
+            "quadrantchart": "quadrantChart",  # Handle lowercase version
             "kanban_board": "kanban"
         }
         
-        mermaid_type = type_map.get(diagram_type, diagram_type)
-        return mermaid_type in self.supported_types
+        # Get mapped type or check if it's already a valid type
+        mermaid_type = type_map.get(normalized, diagram_type)
+        
+        # Also check with normalized supported types for case-insensitive match
+        supported_lower = [t.lower() for t in self.supported_types]
+        return mermaid_type in self.supported_types or mermaid_type.lower() in supported_lower
     
     async def generate_with_context(
         self, 
@@ -183,14 +192,20 @@ class MermaidAgentV2(BaseAgent):
         Builds context from playbook.
         """
         
+        # Normalize the input
+        normalized = request.diagram_type.lower().replace(" ", "_")
+        
         # Map to Mermaid type
         type_map = {
             "entity_relationship": "erDiagram",
+            "erdiagram": "erDiagram",
             "user_journey": "journey",
-            "quadrant": "quadrantChart"
+            "quadrant": "quadrantChart",
+            "quadrantchart": "quadrantChart",
+            "kanban_board": "kanban"
         }
         
-        mermaid_type = type_map.get(request.diagram_type, request.diagram_type)
+        mermaid_type = type_map.get(normalized, request.diagram_type)
         
         # Get context from playbook
         spec = get_diagram_spec(mermaid_type)
@@ -364,4 +379,3 @@ Generate ONLY the Mermaid code, no explanations:"""
                 "server_rendered": False
             }
         }
-    }

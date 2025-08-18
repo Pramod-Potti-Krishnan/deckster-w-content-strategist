@@ -37,40 +37,27 @@ MERMAID_PLAYBOOK_V3 = {
             "official_doc": "https://mermaid.js.org/syntax/flowchart.html",
             
             "complete_example": """flowchart TD
-    %% This is a complete flowchart with all major features
-    %% Based on official Mermaid.js documentation
-    
     %% Different node shapes
-    Start([Start Process])           %% Stadium shape (rounded edges)
-    Input[/Input Data/]              %% Parallelogram for input/output
-    Process[Process Data]            %% Rectangle for standard process
-    Decision{Valid Data?}            %% Rhombus for decisions
-    Database[(Database)]             %% Cylinder for database
-    SubProcess[[Subprocess]]         %% Subroutine shape
-    Result[/Output Result/]          %% Parallelogram for output
-    End([End Process])               %% Stadium shape
+    Start([Start Process])
+    Input[/Input Data/]
+    Process[Process Data]
+    Decision{Valid Data?}
+    Database[(Database)]
+    SubProcess[[Subprocess]]
+    Result[/Output Result/]
+    End([End Process])
     
-    %% Connections with different arrow types
-    Start --> Input                  %% Standard arrow
+    %% Connections
+    Start --> Input
     Input --> Process
     Process --> Decision
-    Decision -->|Yes| Database       %% Arrow with label
-    Decision -->|No| Error[Display Error]  %% Inline node definition
+    Decision -->|Yes| Database
+    Decision -->|No| Error[Display Error]
     Database --> SubProcess
     SubProcess --> Result
-    Error -.-> Input                %% Dotted arrow (retry path)
-    Result ==> End                   %% Thick arrow (important path)
+    Error -.-> Input
+    Result ==> End
     
-    %% Subgraph for grouped operations
-    subgraph Validation [Data Validation Layer]
-        V1[Format Check] --> V2[Range Check]
-        V2 --> V3[Business Rules]
-    end
-    
-    Process --> Validation
-    Validation --> Decision
-    
-    %% Styling with CSS classes
     classDef errorStyle fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px
     classDef successStyle fill:#51cf66,stroke:#37b24d,stroke-width:2px
     class Error errorStyle
@@ -322,10 +309,10 @@ MERMAID_PLAYBOOK_V3 = {
     x-axis Low Impact --> High Impact
     y-axis Low Probability --> High Probability
     
-    quadrant-1 Critical Risks (Mitigate Immediately)
-    quadrant-2 Major Risks (Develop Contingency Plans)
-    quadrant-3 Minor Risks (Accept or Monitor)
-    quadrant-4 Moderate Risks (Preventive Measures)
+    quadrant-1 Critical Risks
+    quadrant-2 Major Risks
+    quadrant-3 Minor Risks
+    quadrant-4 Moderate Risks
     
     %% Plot points: [x-coordinate, y-coordinate]
     %% x: 0 (low impact) to 1 (high impact)
@@ -449,32 +436,20 @@ MERMAID_PLAYBOOK_V3 = {
             "official_doc": "https://mermaid.js.org/syntax/kanban.html",
             
             "complete_example": """kanban
-    %% Kanban board based on official documentation
-    %% Shows columns, cards, and metadata
-    
     Todo[Backlog]
-        research[Research user requirements]@{ assigned: "Alice", priority: "High", ticket: "TASK-101" }
-        design[Create UI mockups]@{ assigned: "Bob", priority: "Medium", ticket: "TASK-102" }
-        planning[Sprint planning meeting]@{ assigned: "Team", priority: "High", ticket: "TASK-103" }
-        security[Security audit preparation]@{ assigned: "Charlie", priority: "Low", ticket: "TASK-104" }
-    
+        research[Research user requirements]
+        design[Create UI mockups]
+        planning[Sprint planning meeting]
     InProgress[In Progress]
-        backend[Implement REST API]@{ assigned: "David", priority: "Critical", ticket: "TASK-095" }
-        frontend[Build React components]@{ assigned: "Eve", priority: "High", ticket: "TASK-096" }
-        database[Optimize database queries]@{ assigned: "Frank", priority: "Medium", ticket: "TASK-097" }
-    
+        backend[Implement REST API]
+        frontend[Build React components]
     Review[Code Review]
-        auth[Authentication module]@{ assigned: "Alice", priority: "Critical", ticket: "TASK-091" }
-        payments[Payment integration]@{ assigned: "Bob", priority: "High", ticket: "TASK-092" }
-    
+        auth[Authentication module]
     Testing[QA Testing]
-        integration[Integration tests]@{ assigned: "Grace", priority: "High", ticket: "TASK-088" }
-        performance[Performance testing]@{ assigned: "Henry", priority: "Medium", ticket: "TASK-089" }
-    
+        integration[Integration tests]
     Done[Completed]
-        setup[Project setup]@{ assigned: "Team", priority: "Critical", ticket: "TASK-001" }
-        cicd[CI/CD pipeline]@{ assigned: "Ian", priority: "High", ticket: "TASK-002" }
-        docs[API documentation]@{ assigned: "Jane", priority: "Medium", ticket: "TASK-003" }""",
+        setup[Project setup]
+        cicd[CI/CD pipeline]""",
             
             "key_syntax": {
                 "structure": {

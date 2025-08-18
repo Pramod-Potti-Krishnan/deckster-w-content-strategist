@@ -96,12 +96,14 @@ class UnifiedPlaybookV2:
     def _build_mermaid_mappings(self) -> Dict[str, str]:
         """Build mappings from user-friendly names to Mermaid syntax"""
         return {
-            # Direct mappings
+            # Direct mappings (both camelCase and lowercase)
             "flowchart": "flowchart",
             "erDiagram": "erDiagram",
+            "erdiagram": "erDiagram",  # Handle lowercase
             "journey": "journey",
             "gantt": "gantt",
             "quadrantChart": "quadrantChart",
+            "quadrantchart": "quadrantChart",  # Handle lowercase
             "timeline": "timeline",
             "kanban": "kanban",
             
@@ -144,7 +146,7 @@ class UnifiedPlaybookV2:
         strategy, context = self._try_rule_based_routing(request)
         
         # If confident in rule-based, return it
-        if strategy and strategy.confidence >= 0.7:
+        if strategy and context and strategy.confidence >= 0.85:
             logger.info(f"✅ Rule-based routing: {strategy.method} -> {context.get('specific_type')}")
             return strategy, context
         
@@ -414,6 +416,14 @@ Select the best method and the EXACT type/template name."""
                 summary += f"  {category}: {', '.join(templates)}\n"
         
         return summary
+    
+    async def get_strategy(self, request: DiagramRequest) -> GenerationStrategy:
+        """
+        Compatibility method for conductor.
+        Returns strategy without context.
+        """
+        strategy, context = await self.get_strategy_with_context(request)
+        return strategy
     
     async def initialize(self):
         """Initialize the playbook"""

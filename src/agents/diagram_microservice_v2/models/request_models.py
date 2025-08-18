@@ -135,7 +135,18 @@ class DiagramRequest(BaseModel):
         """Validate diagram type format"""
         if not v or not isinstance(v, str):
             raise ValueError("diagram_type must be a non-empty string")
-        return v.lower().replace(' ', '_')
+        
+        # Preserve known Mermaid camelCase types
+        known_camel_case = {
+            'erdiagram': 'erDiagram',
+            'quadrantchart': 'quadrantChart'
+        }
+        
+        # Normalize: lowercase and replace spaces with underscores
+        normalized = v.lower().replace(' ', '_')
+        
+        # Return the proper casing if it's a known type
+        return known_camel_case.get(normalized, normalized)
     
     @validator('content')
     def validate_content(cls, v):
