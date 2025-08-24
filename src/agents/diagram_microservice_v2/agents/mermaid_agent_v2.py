@@ -23,6 +23,7 @@ from models.response_models import OutputType
 from .base_agent import BaseAgent
 from utils.logger import setup_logger
 from utils.mermaid_renderer import render_mermaid_to_svg
+from utils.mermaid_validator import MermaidValidator
 
 # Import the new playbook
 import sys
@@ -150,6 +151,24 @@ class MermaidAgentV2(BaseAgent):
             
             logger.info(f"✅ Generated {specific_type} diagram ({len(mermaid_code)} chars)")
             
+            # Validate and fix the generated code
+            try:
+                validator = MermaidValidator(self.settings)
+                is_valid, fixed_code, issues = await validator.validate_and_fix(
+                    specific_type, 
+                    mermaid_code
+                )
+                
+                if issues:
+                    logger.info(f"🔧 Fixed {len(issues)} syntax issues in {specific_type}: {', '.join(issues)}")
+                    mermaid_code = fixed_code
+                elif not is_valid:
+                    logger.warning(f"Validation found issues but couldn't fix them for {specific_type}")
+                
+            except Exception as e:
+                logger.warning(f"Validation failed, using original code: {e}")
+                # Continue with original code if validation fails
+            
             # Attempt server-side rendering if enabled
             svg_content = None
             render_success = False
@@ -242,6 +261,43 @@ class MermaidAgentV2(BaseAgent):
         
         syntax_str = "\n".join(syntax_points) if syntax_points else "Follow the example syntax"
         
+        # Add specific Gantt rules if needed
+        gantt_rules = ""
+        if specific_type == "gantt":
+            gantt_rules = """
+
+CRITICAL GANTT CHART RULES:
+1. VALID STATUS TAGS (only these 4 are allowed):
+   - done: Completed tasks (gray)
+   - active: Currently in progress (blue)
+   - crit: Critical path (red)
+   - milestone: Zero-duration milestones (diamond shape)
+
+2. INVALID TAGS - DO NOT USE THESE AS STATUS TAGS:
+   des, db, int, test, unit, bug, stage, prep, support are NOT status tags!
+   These should be task IDs, not status tags.
+
+3. CORRECT TASK FORMAT:
+   Without status: "Task Name :taskId, start/dependency, duration"
+   With status: "Task Name :statusTag, taskId, start/dependency, duration"
+   
+   Examples:
+   ✅ CORRECT: "Technical design :design1, after req, 14d" (no status, task_id=design1)
+   ✅ CORRECT: "Backend API :crit, backend1, after design1, 21d" (status=crit, task_id=backend1)
+   ❌ WRONG: "Technical design :des, design1, after req, 14d" (des is NOT a valid status tag!)
+   ❌ WRONG: "Database :db, database1, after backend1, 7d" (db is NOT a valid status tag!)
+
+4. MULTIPLE DEPENDENCIES:
+   Use SPACE separation (not comma): "after task1 task2 task3"
+   ✅ CORRECT: "Integration :int1, after frontend backend, 10d"
+   ❌ WRONG: "Integration :int1, after frontend, backend, 10d"
+
+5. MILESTONES:
+   Must have 0d duration
+   ✅ CORRECT: "Go live :milestone, launch1, after testing, 0d"
+   ❌ WRONG: "Go live :milestone, launch1, after testing, 1d"
+"""
+        
         prompt = f"""Create a {specific_type} diagram based on this working example:
 
 WORKING EXAMPLE (This is correct, tested Mermaid syntax):
@@ -251,6 +307,7 @@ WORKING EXAMPLE (This is correct, tested Mermaid syntax):
 
 KEY SYNTAX RULES:
 {syntax_str}
+{gantt_rules}
 
 USER REQUEST:
 {user_content}
@@ -259,9 +316,10 @@ INSTRUCTIONS:
 1. Use the EXACT same structure as the working example above
 2. Adapt the content to match the user's request
 3. Keep all the syntax patterns from the example
-4. Start with the same diagram declaration (e.g., "flowchart TD", "erDiagram", etc.)
+4. Start with the same diagram declaration (e.g., "flowchart TD", "erDiagram", "gantt", etc.)
 5. Use similar node/entity definitions and connections
 6. Include comments with %% to explain complex parts
+7. For Gantt charts: Use ONLY valid status tags (done, active, crit, milestone) or no status tag at all
 
 Generate ONLY the Mermaid code, no explanations:"""
         
