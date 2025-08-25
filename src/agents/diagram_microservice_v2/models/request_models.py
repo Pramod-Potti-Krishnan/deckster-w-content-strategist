@@ -5,6 +5,13 @@ Request Models for Diagram Generation
 from typing import Dict, Any, List, Optional
 from pydantic import BaseModel, Field, validator
 from datetime import datetime
+from enum import Enum
+
+
+class ColorScheme(str, Enum):
+    """Color scheme generation methods"""
+    MONOCHROMATIC = "monochromatic"
+    COMPLEMENTARY = "complementary"
 
 
 class DiagramTheme(BaseModel):
@@ -15,8 +22,16 @@ class DiagramTheme(BaseModel):
         description="Primary color for diagram elements"
     )
     secondaryColor: Optional[str] = Field(
-        default="#60A5FA", 
-        description="Secondary color for accents"
+        default=None, 
+        description="Secondary color (used in complementary scheme, auto-generated if not provided)"
+    )
+    accentColor: Optional[str] = Field(
+        default=None,
+        description="Accent color (used in complementary scheme, auto-generated if not provided)"
+    )
+    colorScheme: ColorScheme = Field(
+        default=ColorScheme.COMPLEMENTARY,
+        description="Color generation method: monochromatic (single color gradients) or complementary (multiple colors)"
     )
     backgroundColor: Optional[str] = Field(
         default="#FFFFFF",
@@ -34,8 +49,12 @@ class DiagramTheme(BaseModel):
         default="professional",
         description="Overall style: professional, playful, minimal, bold"
     )
+    useSmartTheming: bool = Field(
+        default=True,
+        description="Use intelligent color palette generation"
+    )
     
-    @validator('primaryColor', 'secondaryColor', 'backgroundColor', 'textColor')
+    @validator('primaryColor', 'secondaryColor', 'accentColor', 'backgroundColor', 'textColor')
     def validate_color(cls, v):
         """Validate color format"""
         if v and not (v.startswith('#') or v.startswith('rgb')):

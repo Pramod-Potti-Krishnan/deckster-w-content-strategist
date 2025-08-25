@@ -97,13 +97,13 @@ class BaseAgent(ABC):
             # Apply color replacements
             replacements = {
                 "#3B82F6": theme.get("primaryColor", "#3B82F6"),
-                "#60A5FA": theme.get("secondaryColor", "#60A5FA"),
-                "#FFFFFF": theme.get("backgroundColor", "#FFFFFF"),
+                "#60A5FA": theme.get("secondaryColor") or "#60A5FA",  # Handle None
+                "#FFFFFF": theme.get("backgroundColor") or "#FFFFFF",  # Handle None
                 "#1F2937": theme.get("textColor", "#1F2937")
             }
             
             for old_color, new_color in replacements.items():
-                if old_color != new_color:
+                if old_color != new_color and new_color:  # Ensure new_color is not None
                     content = content.replace(old_color, new_color)
         
         return content
