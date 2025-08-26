@@ -23,7 +23,7 @@ from utils.logger import setup_logger
 
 # Setup logging
 logger = setup_logger(__name__)
-settings = get_settings()
+# Don't load settings at module level - load them when needed
 
 # Create FastAPI app
 app = FastAPI(
@@ -35,7 +35,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.get_cors_origins_list(),
+    allow_origins=get_settings().get_cors_origins_list(),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -53,8 +53,12 @@ async def startup_event():
     
     logger.info("Starting Diagram Microservice v2...")
     
-    # Check environment variables and log status
+    # Load environment variables FIRST before anything else
     import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    # Check environment variables and log status
     env_status = []
     
     # Check critical environment variables
@@ -82,7 +86,8 @@ async def startup_event():
     if "❌" in " ".join(env_status):
         logger.warning("Some features are disabled. Add environment variables in Railway dashboard.")
     
-    # Initialize WebSocket handler
+    # Initialize WebSocket handler with fresh settings
+    settings = get_settings()
     ws_handler = WebSocketHandler(settings)
     await ws_handler.initialize()
     
@@ -109,7 +114,7 @@ async def root():
         "service": "Diagram Microservice v2",
         "version": "2.0.0",
         "status": "running",
-        "websocket_url": f"{settings.ws_url}"
+        "websocket_url": f"{get_settings().ws_url}"
     }
 
 
@@ -131,7 +136,7 @@ async def health_check():
         health_status["status"] = "degraded"
     
     # Check cache if enabled
-    if settings.enable_cache:
+    if get_settings().enable_cache:
         try:
             # TODO: Add cache health check
             health_status["cache"] = "healthy"
@@ -140,7 +145,7 @@ async def health_check():
             health_status["status"] = "degraded"
     
     # Check database if configured
-    if settings.supabase_url:
+    if get_settings().supabase_url:
         try:
             # TODO: Add database health check
             health_status["database"] = "healthy"
@@ -155,7 +160,7 @@ async def health_check():
 @app.get("/metrics")
 async def metrics():
     """Metrics endpoint"""
-    if not settings.enable_metrics:
+    if not get_settings().enable_metrics:
         raise HTTPException(status_code=404, detail="Metrics disabled")
     
     metrics_data = {
@@ -197,6 +202,7 @@ async def websocket_endpoint(
         logger.debug(f"Using default user_id: {user_id}")
     
     # Validate API key if configured
+    settings = get_settings()
     if settings.api_key and settings.api_key.strip() and api_key != settings.api_key:
         await websocket.close(code=1008, reason="Authentication failed")
         return
@@ -232,13 +238,13 @@ def main():
     parser = argparse.ArgumentParser(description="Diagram Microservice v2")
     parser.add_argument(
         "--host",
-        default=settings.ws_host,
+        default=get_settings().ws_host,
         help="Host to bind to"
     )
     parser.add_argument(
         "--port",
         type=int,
-        default=int(os.getenv("PORT", settings.ws_port)),  # Railway provides PORT
+        default=int(os.getenv("PORT", get_settings().ws_port)),  # Railway provides PORT
         help="Port to bind to"
     )
     parser.add_argument(
@@ -270,7 +276,7 @@ def main():
         host=args.host,
         port=args.port,
         reload=args.reload,
-        log_level="debug" if args.debug else settings.log_level.lower(),
+        log_level="debug" if args.debug else get_settings().log_level.lower(),
         access_log=args.debug
     )
 

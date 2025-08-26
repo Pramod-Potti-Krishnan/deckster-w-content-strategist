@@ -66,11 +66,18 @@ class MermaidAgent(BaseAgent):
         # Initialize Gemini if API key is available
         if settings.google_api_key:
             try:
-                # Configure Gemini
-                genai.configure(api_key=settings.google_api_key)
-                self.model = genai.GenerativeModel('gemini-2.5-flash')
-                self.enabled = True
-                logger.info("✅ MermaidAgent initialized with gemini-2.5-flash")
+                # Use centralized Gemini configuration
+                from config import configure_gemini
+                
+                # Log the API key being used (for debugging)
+                logger.info(f"Configuring MermaidAgent with API key: {settings.google_api_key[:20]}...")
+                
+                if configure_gemini(settings.google_api_key):
+                    self.model = genai.GenerativeModel('gemini-2.5-flash')
+                    self.enabled = True
+                    logger.info("✅ MermaidAgent initialized with gemini-2.5-flash")
+                else:
+                    raise ValueError("Failed to configure Gemini API")
             except Exception as e:
                 logger.error(f"Failed to initialize Gemini: {e}")
                 self.model = None

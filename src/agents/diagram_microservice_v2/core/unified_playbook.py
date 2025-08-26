@@ -61,11 +61,18 @@ class UnifiedPlaybook:
         # Initialize Gemini router if API key is available
         if settings.google_api_key:
             try:
-                # Configure Gemini
-                genai.configure(api_key=settings.google_api_key)
-                self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
-                self.enabled = True
-                logger.info("✅ UnifiedPlaybook initialized with gemini-2.0-flash-lite")
+                # Use centralized Gemini configuration
+                from config import configure_gemini
+                
+                # Log the API key being used (for debugging)
+                logger.info(f"Configuring UnifiedPlaybook with API key: {settings.google_api_key[:20]}...")
+                
+                if configure_gemini(settings.google_api_key):
+                    self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
+                    self.enabled = True
+                    logger.info("✅ UnifiedPlaybook initialized with gemini-2.0-flash-lite")
+                else:
+                    raise ValueError("Failed to configure Gemini API")
             except Exception as e:
                 logger.error(f"Failed to initialize Gemini router: {e}")
                 self.model = None
@@ -98,6 +105,25 @@ class UnifiedPlaybook:
         Returns:
             GenerationStrategy with routing decision
         """
+        
+        # Check if method is forced in request
+        if hasattr(request, 'method') and request.method:
+            method_map = {
+                'svg_template': GenerationMethod.SVG_TEMPLATE,
+                'mermaid': GenerationMethod.MERMAID,
+                'python_chart': GenerationMethod.PYTHON_CHART
+            }
+            forced_method = method_map.get(request.method)
+            if forced_method:
+                logger.info(f"Using forced method from request: {forced_method}")
+                return GenerationStrategy(
+                    method=forced_method,
+                    confidence=1.0,
+                    reasoning=f"Method explicitly requested: {request.method}",
+                    fallback_chain=[],
+                    estimated_time_ms=1000,
+                    quality_estimate="high"
+                )
         
         # Check if model is available
         if not self.enabled or not self.model:
