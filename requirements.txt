@@ -46,6 +46,9 @@ rembg  # For AI-powered background removal
 
 # Diagram Generation
 mermaid-py  # Python wrapper for Mermaid.js rendering (uses mermaid.ink API)
+matplotlib==3.8.2  # For Python chart generation
+plotly==5.18.0  # For interactive charts
+kaleido==0.2.1  # For plotly image export
 
 # Development/Testing (optional - uncomment if needed)
 # pytest
